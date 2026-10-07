@@ -1,0 +1,23 @@
+{
+	"$schema": "../../docs/modding/schemas/mod.schema.json",
+	"api": 1.0,
+	"authors": [
+		"Alexander"
+	],
+	"client_only": true,
+	"depends": [],
+	"description": {
+		"en": "Strategic Advisor 2.0: Event-driven reactive UI, HUD goal indicator, war simulator, grand doctrines, direct order dispatch, diplomatic vector matrix, and crisis response.",
+		"ru": "ВИ-Советник 2.0: Реактивный UI, мини-индикатор цели на HUD, военный симулятор шансов победы, государственные доктрины, приказы в один клик и матрица геополитики."
+	},
+	"entry": "main.gd",
+	"game_version": ">=0.22.5",
+	"id": "strategist",
+	"load_after": [],
+	"name": {
+		"en": "AI Advisor 2.0",
+		"ru": "ВИ-Советник 2.0"
+	},
+	"tags": ["ui", "code", "ai", "strategy"],
+	"version": "1.1.0"
+}
