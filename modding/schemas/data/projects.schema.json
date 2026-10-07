@@ -1,0 +1,60 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/projects.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/projects.json → data/projects.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "projects": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "words": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "price": {
+      "type": "object",
+      "properties": {
+       "humans": {
+        "type": "number"
+       },
+       "energy": {
+        "type": "number"
+       },
+       "materials": {
+        "type": "number"
+       },
+       "water": {
+        "type": "number"
+       },
+       "rare": {
+        "type": "number"
+       }
+      }
+     },
+     "what_for": {
+      "type": "string"
+     },
+     "what_it_gives": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "manner_this_read": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  }
+ }
+}

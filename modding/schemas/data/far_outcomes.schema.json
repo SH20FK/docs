@@ -1,0 +1,110 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/far_outcomes.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/far_outcomes.json → data/far_outcomes.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "milestones": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "с": {
+      "type": "number"
+     },
+     "name": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "outcomes": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "milestones": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     },
+     "die": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     },
+     "tone": {
+      "type": "string"
+     },
+     "conditions": {
+      "type": "object",
+      "properties": {
+       "humans": {
+        "type": "boolean"
+       }
+      }
+     },
+     "effect": {
+      "type": "object",
+      "properties": {
+       "colonies": {
+        "type": "string"
+       },
+       "scales": {
+        "type": "number"
+       },
+       "humans": {
+        "type": "number"
+       }
+      }
+     }
+    }
+   }
+  },
+  "_back": {
+   "type": "string"
+  },
+  "шанс_back": {
+   "type": "number"
+  },
+  "back": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "years_back": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     },
+     "tone": {
+      "type": "string"
+     },
+     "weight": {
+      "type": "number"
+     },
+     "effect": {
+      "type": "object",
+      "properties": {
+       "radiation": {
+        "type": "number"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

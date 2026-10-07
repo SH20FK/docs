@@ -1,0 +1,55 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/problems.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/problems.json → data/problems.patch.json",
+ "type": "object",
+ "properties": {
+  "starting": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "po_state": {
+   "type": "object",
+   "properties": {
+    "high_radiation": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "few_waters": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "chilly": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "few_people": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "low_trust": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "good": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ }
+}

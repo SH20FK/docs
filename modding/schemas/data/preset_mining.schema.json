@@ -1,0 +1,11 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/preset_mining.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/preset_mining.json → data/preset_mining.patch.json",
+ "type": "object",
+ "properties": {
+  "_manner_this_works": {
+   "type": "string"
+  }
+ }
+}

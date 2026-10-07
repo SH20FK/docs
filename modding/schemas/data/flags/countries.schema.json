@@ -1,0 +1,24 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/flags/countries.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/flags/countries.json → data/flags/countries.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "countries": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "string"
+   },
+   "x-examples": [
+    "США",
+    "Китай",
+    "Россия",
+    "Украина",
+    "Индия"
+   ]
+  }
+ }
+}

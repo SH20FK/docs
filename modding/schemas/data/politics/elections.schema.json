@@ -1,0 +1,546 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/politics/elections.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/politics/elections.json → data/politics/elections.patch.json",
+ "type": "object",
+ "properties": {
+  "_description": {
+   "type": "string"
+  },
+  "_fields": {
+   "type": "object",
+   "properties": {
+    "for": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "strength": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "noticeable": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "price": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "cause": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "ban": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "street": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "money": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "goal": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "risk": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "text": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "grudge": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "measures": {
+   "type": "object",
+   "properties": {
+    "broadcasts": {
+     "type": "object",
+     "properties": {
+      "for": {
+       "type": "boolean"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "noticeable": {
+       "type": "number"
+      },
+      "price": {
+       "type": "number"
+      }
+     }
+    },
+    "admin_resource": {
+     "type": "object",
+     "properties": {
+      "for": {
+       "type": "boolean"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "noticeable": {
+       "type": "number"
+      },
+      "price": {
+       "type": "number"
+      }
+     }
+    },
+    "distribution": {
+     "type": "object",
+     "properties": {
+      "for": {
+       "type": "boolean"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "noticeable": {
+       "type": "number"
+      },
+      "price": {
+       "type": "number"
+      }
+     }
+    },
+    "remove_s_broadcasts": {
+     "type": "object",
+     "properties": {
+      "for": {
+       "type": "boolean"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "noticeable": {
+       "type": "number"
+      },
+      "price": {
+       "type": "number"
+      },
+      "cause": {
+       "type": "boolean"
+      },
+      "ban": {
+       "type": "boolean"
+      }
+     }
+    },
+    "ban_campaigning": {
+     "type": "object",
+     "properties": {
+      "for": {
+       "type": "boolean"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "noticeable": {
+       "type": "number"
+      },
+      "price": {
+       "type": "number"
+      },
+      "cause": {
+       "type": "boolean"
+      },
+      "ban": {
+       "type": "boolean"
+      }
+     }
+    },
+    "ban_rallies": {
+     "type": "object",
+     "properties": {
+      "for": {
+       "type": "boolean"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "noticeable": {
+       "type": "number"
+      },
+      "price": {
+       "type": "number"
+      },
+      "cause": {
+       "type": "boolean"
+      },
+      "street": {
+       "type": "number"
+      },
+      "ban": {
+       "type": "boolean"
+      }
+     }
+    },
+    "not_register": {
+     "type": "object",
+     "properties": {
+      "for": {
+       "type": "boolean"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "noticeable": {
+       "type": "number"
+      },
+      "price": {
+       "type": "number"
+      },
+      "cause": {
+       "type": "boolean"
+      },
+      "ban": {
+       "type": "boolean"
+      }
+     }
+    },
+    "arrest_leader": {
+     "type": "object",
+     "properties": {
+      "for": {
+       "type": "boolean"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "noticeable": {
+       "type": "number"
+      },
+      "price": {
+       "type": "number"
+      }
+     }
+    },
+    "kompromat": {
+     "type": "object",
+     "properties": {
+      "for": {
+       "type": "boolean"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "noticeable": {
+       "type": "number"
+      },
+      "price": {
+       "type": "number"
+      }
+     }
+    },
+    "own": {
+     "type": "object",
+     "properties": {
+      "strength": {
+       "type": "number"
+      },
+      "noticeable": {
+       "type": "number"
+      },
+      "price": {
+       "type": "number"
+      },
+      "cause": {
+       "type": "boolean"
+      }
+     }
+    }
+   }
+  },
+  "conviction": {
+   "type": "object",
+   "properties": {
+    "rallies": {
+     "type": "object",
+     "properties": {
+      "strength": {
+       "type": "number"
+      },
+      "money": {
+       "type": "number"
+      },
+      "goal": {
+       "type": "string"
+      }
+     }
+    },
+    "advertising": {
+     "type": "object",
+     "properties": {
+      "strength": {
+       "type": "number"
+      },
+      "money": {
+       "type": "number"
+      },
+      "goal": {
+       "type": "string"
+      }
+     }
+    },
+    "promise": {
+     "type": "object",
+     "properties": {
+      "strength": {
+       "type": "number"
+      },
+      "money": {
+       "type": "number"
+      },
+      "goal": {
+       "type": "string"
+      },
+      "text": {
+       "type": "boolean"
+      },
+      "grudge": {
+       "type": "number"
+      }
+     }
+    },
+    "debates": {
+     "type": "object",
+     "properties": {
+      "strength": {
+       "type": "number"
+      },
+      "money": {
+       "type": "number"
+      },
+      "goal": {
+       "type": "string"
+      },
+      "risk": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  }
+ }
+}

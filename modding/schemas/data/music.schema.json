@@ -1,0 +1,148 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/music.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/music.json → data/music.patch.json",
+ "type": "object",
+ "properties": {
+  "_description": {
+   "type": "string"
+  },
+  "_fields": {
+   "type": "object",
+   "properties": {
+    "aliases": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "what": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "moments": {
+   "type": "object",
+   "properties": {
+    "начало": {
+     "type": "object",
+     "properties": {
+      "aliases": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "what": {
+       "type": "string"
+      }
+     }
+    },
+    "контакт": {
+     "type": "object",
+     "properties": {
+      "aliases": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "what": {
+       "type": "string"
+      }
+     }
+    },
+    "этап": {
+     "type": "object",
+     "properties": {
+      "aliases": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "what": {
+       "type": "string"
+      }
+     }
+    },
+    "кризис": {
+     "type": "object",
+     "properties": {
+      "aliases": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "what": {
+       "type": "string"
+      }
+     }
+    },
+    "перемотка": {
+     "type": "object",
+     "properties": {
+      "aliases": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "what": {
+       "type": "string"
+      }
+     }
+    },
+    "автоигра": {
+     "type": "object",
+     "properties": {
+      "aliases": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "what": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  }
+ }
+}

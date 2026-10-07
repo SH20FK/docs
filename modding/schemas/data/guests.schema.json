@@ -1,0 +1,34 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/guests.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/guests.json → data/guests.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "guests": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "additionalProperties": {
+     "type": "string"
+    },
+    "x-examples": [
+     "model",
+     "radius",
+     "where",
+     "key_name",
+     "description"
+    ]
+   },
+   "x-examples": [
+    "ark",
+    "reaper",
+    "relay",
+    "star_death",
+    "endurance"
+   ]
+  }
+ }
+}

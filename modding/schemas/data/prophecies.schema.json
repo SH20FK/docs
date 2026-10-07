@@ -1,0 +1,53 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/prophecies.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/prophecies.json → data/prophecies.patch.json",
+ "type": "object",
+ "properties": {
+  "_manner_this_works": {
+   "type": "string"
+  },
+  "prophecies": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "key": {
+      "type": "string"
+     },
+     "kind": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "text": {
+      "type": "string"
+     },
+     "effect": {
+      "type": "object",
+      "properties": {
+       "scales": {
+        "type": "object",
+        "properties": {
+         "comms": {
+          "type": "number"
+         },
+         "infrastructure": {
+          "type": "number"
+         }
+        }
+       },
+       "trust": {
+        "type": "number"
+       },
+       "rumour": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

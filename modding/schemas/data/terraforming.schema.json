@@ -1,0 +1,62 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/terraforming.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/terraforming.json → data/terraforming.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "classes": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "en": {
+      "type": "string"
+     },
+     "v_year": {
+      "type": "object",
+      "properties": {
+       "temperature": {
+        "type": "number"
+       }
+      }
+     },
+     "kind": {
+      "type": "string"
+     },
+     "science": {
+      "type": "number"
+     },
+     "tier": {
+      "type": "number"
+     }
+    }
+   },
+   "x-examples": [
+    "mirrors",
+    "solar_shield",
+    "greenhouse_gases",
+    "comets_i_ice",
+    "import_flying"
+   ]
+  },
+  "bodies": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "x-examples": [
+    "Меркурий",
+    "Венера",
+    "Луна",
+    "Марс",
+    "Фобос"
+   ]
+  }
+ }
+}

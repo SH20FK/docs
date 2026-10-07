@@ -1,0 +1,16 @@
+{
+	"id": "example_events",
+	"name": {
+		"en": "Example: events and decisions without code",
+		"ru": "Пример: события и решения без кода"
+	},
+	"version": "1.0.0",
+	"api": 1,
+	"game_version": ">=0.22.5",
+	"authors": ["Gugergaming"],
+	"description": {
+		"en": "Two events and a decision written only in JSON: a drought when food runs low, a foreign delegation for peaceful countries, and a public works decision that costs money. No code at all — open data/mod_events.patch.json.",
+		"ru": "Два события и решение — только JSON: засуха, когда кончается еда, иностранная делегация для мирных стран и решение о народной стройке за деньги. Ни строчки кода — откройте data/mod_events.patch.json."
+	},
+	"tags": ["example", "events", "no-code"]
+}

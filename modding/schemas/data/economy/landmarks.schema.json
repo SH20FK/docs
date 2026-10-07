@@ -1,0 +1,38 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/economy/landmarks.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/economy/landmarks.json → data/economy/landmarks.patch.json",
+ "type": "object",
+ "properties": {
+  "_source": {
+   "type": "string"
+  },
+  "stations": {
+   "type": "array",
+   "items": {
+    "type": "array",
+    "items": {
+     "type": "number"
+    }
+   }
+  },
+  "grid": {
+   "type": "array",
+   "items": {
+    "type": "array",
+    "items": {
+     "type": "number"
+    }
+   }
+  },
+  "mines": {
+   "type": "array",
+   "items": {
+    "type": "array",
+    "items": {
+     "type": "number"
+    }
+   }
+  }
+ }
+}

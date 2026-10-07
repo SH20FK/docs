@@ -1,0 +1,30 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/satellites.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/satellites.json → data/satellites.patch.json",
+ "type": "object",
+ "properties": {
+  "_manner_this_works": {
+   "type": "string"
+  },
+  "satellites": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": {
+     "type": "string"
+    },
+    "x-examples": [
+     "id",
+     "kind",
+     "parent",
+     "height",
+     "tilt"
+    ]
+   }
+  },
+  "_countries": {
+   "type": "string"
+  }
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/calendar.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/calendar.json → data/calendar.patch.json",
+ "type": "object",
+ "properties": {
+  "_description": {
+   "type": "string"
+  }
+ }
+}

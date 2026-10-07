@@ -1,0 +1,175 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/easter_egg_altz.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/easter_egg_altz.json → data/easter_egg_altz.patch.json",
+ "type": "object",
+ "properties": {
+  "name": {
+   "type": "string"
+  },
+  "second_name": {
+   "type": "string"
+  },
+  "kind": {
+   "type": "string"
+  },
+  "chance_meetings": {
+   "type": "number"
+  },
+  "not_earlier_year": {
+   "type": "number"
+  },
+  "not_later_year": {
+   "type": "number"
+  },
+  "year_birth": {
+   "type": "number"
+  },
+  "what_he_knows": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "where_can_be": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "header": {
+   "type": "object",
+   "properties": {
+    "who": {
+     "type": "string"
+    },
+    "where": {
+     "type": "string"
+    },
+    "чем занят": {
+     "type": "string"
+    },
+    "why": {
+     "type": "string"
+    },
+    "чем полезен": {
+     "type": "string"
+    },
+    "чего не делает": {
+     "type": "string"
+    },
+    "как говорит": {
+     "type": "string"
+    }
+   }
+  },
+  "character_for_ai": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "greeting": {
+   "type": "string"
+  },
+  "first_words": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "quest_item": {
+   "type": "object",
+   "properties": {
+    "title_name": {
+     "type": "string"
+    },
+    "setup": {
+     "type": "string"
+    },
+    "what_asks": {
+     "type": "string"
+    },
+    "outcomes": {
+     "type": "object",
+     "properties": {
+      "brilliant": {
+       "type": "object",
+       "properties": {
+        "what_happened": {
+         "type": "string"
+        },
+        "reward": {
+         "type": "string"
+        },
+        "trace_v_world": {
+         "type": "string"
+        }
+       }
+      },
+      "success": {
+       "type": "object",
+       "properties": {
+        "what_happened": {
+         "type": "string"
+        },
+        "reward": {
+         "type": "string"
+        },
+        "trace_v_world": {
+         "type": "string"
+        }
+       }
+      },
+      "failure": {
+       "type": "object",
+       "properties": {
+        "what_happened": {
+         "type": "string"
+        },
+        "price": {
+         "type": "string"
+        },
+        "trace_v_world": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "_manner_this_works": {
+   "type": "string"
+  },
+  "price_flight": {
+   "type": "object",
+   "properties": {
+    "rare": {
+     "type": "number"
+    },
+    "energy": {
+     "type": "number"
+    }
+   }
+  },
+  "pranks": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "about_time": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "requests": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  }
+ }
+}

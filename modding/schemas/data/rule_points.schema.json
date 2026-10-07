@@ -1,0 +1,225 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/rule_points.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/rule_points.json → data/rule_points.patch.json",
+ "type": "object",
+ "properties": {
+  "_description": {
+   "type": "string"
+  },
+  "_fields": {
+   "type": "object",
+   "properties": {
+    "owner": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "names": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "points": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "labels": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "groups": {
+   "type": "object",
+   "properties": {
+    "treasury": {
+     "type": "object",
+     "properties": {
+      "owner": {
+       "type": "string"
+      },
+      "names": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "points": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "people": {
+     "type": "object",
+     "properties": {
+      "owner": {
+       "type": "string"
+      },
+      "names": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "points": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "science": {
+     "type": "object",
+     "properties": {
+      "owner": {
+       "type": "string"
+      },
+      "names": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "points": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "army": {
+     "type": "object",
+     "properties": {
+      "owner": {
+       "type": "string"
+      },
+      "names": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "points": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "trust": {
+     "type": "object",
+     "properties": {
+      "owner": {
+       "type": "string"
+      },
+      "names": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "points": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "politics": {
+     "type": "object",
+     "properties": {
+      "owner": {
+       "type": "string"
+      },
+      "names": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "points": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "powers": {
+     "type": "object",
+     "properties": {
+      "owner": {
+       "type": "string"
+      },
+      "names": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "points": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

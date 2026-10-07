@@ -1,0 +1,41 @@
+{
+	"events": {
+		"$append": [
+			{
+				"id": "example_voxel_meteor",
+				"title": {
+					"ru": "Метеорит",
+					"en": "A meteorite"
+				},
+				"text": {
+					"ru": "Над планетой прочертило огнём небо. Удар пришёлся по населённой земле — провинция опустела.",
+					"en": "Fire streaked across the sky. It struck inhabited land — the province is empty now."
+				},
+				"шанс_v_year": 0.5,
+				"times": 2,
+				"options": [
+					{
+						"text": {
+							"ru": "Помочь выжившим",
+							"en": "Help the survivors"
+						},
+						"effects": {
+							"кратер": {
+								"province": "случайная",
+								"radius": 250
+							},
+							"money": -100,
+							"chronicle": {
+								"text": {
+									"ru": "Метеорит оставил кратер. Выжившим помогли.",
+									"en": "The meteorite left a crater. The survivors got help."
+								},
+								"tone": "neutral"
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

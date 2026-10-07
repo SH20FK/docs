@@ -1,0 +1,303 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/rewards.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/rewards.json → data/rewards.patch.json",
+ "type": "object",
+ "properties": {
+  "_description": {
+   "type": "string"
+  },
+  "_fields": {
+   "type": "object",
+   "properties": {
+    "minor": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "deed": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "large": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "fate": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "interworld": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "country": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "faction": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "person": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "themselves": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "can_give": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "by_size": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "generosity": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "can_give": {
+   "type": "object",
+   "properties": {
+    "country": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "faction": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "person": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "themselves": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "by_size": {
+   "type": "object",
+   "properties": {
+    "minor": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "deed": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "large": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "fate": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "interworld": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "generosity": {
+   "type": "object",
+   "properties": {
+    "minor": {
+     "type": "number"
+    },
+    "deed": {
+     "type": "number"
+    },
+    "large": {
+     "type": "number"
+    },
+    "fate": {
+     "type": "number"
+    },
+    "interworld": {
+     "type": "number"
+    }
+   }
+  }
+ }
+}

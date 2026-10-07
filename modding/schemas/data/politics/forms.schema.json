@@ -1,0 +1,57 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/politics/forms.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/politics/forms.json → data/politics/forms.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "classes": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "additionalProperties": {
+     "type": "string"
+    },
+    "x-examples": [
+     "en",
+     "head_of_it",
+     "parliament",
+     "road",
+     "elections"
+    ]
+   },
+   "x-examples": [
+    "absolute_monarchy",
+    "constitutional_monarchy",
+    "presidential_republic",
+    "semi_presidential",
+    "parliamentary_republic"
+   ]
+  },
+  "po_default": {
+   "type": "object",
+   "properties": {
+    "polity": {
+     "type": "string"
+    },
+    "small": {
+     "type": "string"
+    },
+    "epochs": {
+     "type": "array",
+     "items": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    },
+    "without_states": {
+     "type": "string"
+    }
+   }
+  }
+ }
+}

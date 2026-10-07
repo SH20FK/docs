@@ -1,0 +1,31 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/cities.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/cities.json → data/cities.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "cities": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "ru": {
+      "type": "string"
+     },
+     "en": {
+      "type": "string"
+     },
+     "ш": {
+      "type": "number"
+     },
+     "д": {
+      "type": "number"
+     }
+    }
+   }
+  }
+ }
+}

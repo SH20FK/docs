@@ -1,0 +1,54 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/start.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/start.json → data/start.patch.json",
+ "type": "object",
+ "properties": {
+  "title_name": {
+   "type": "string"
+  },
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "temperature": {
+     "type": "number"
+    },
+    "water": {
+     "type": "number"
+    },
+    "biomass": {
+     "type": "number"
+    },
+    "radiation": {
+     "type": "number"
+    },
+    "atmosphere": {
+     "type": "number"
+    },
+    "urban": {
+     "type": "number"
+    },
+    "magnetic": {
+     "type": "number"
+    }
+   }
+  },
+  "resources": {
+   "type": "object",
+   "properties": {
+    "humans": {
+     "type": "number"
+    },
+    "energy": {
+     "type": "number"
+    },
+    "raw_materials": {
+     "type": "number"
+    },
+    "trust": {
+     "type": "number"
+    }
+   }
+  }
+ }
+}

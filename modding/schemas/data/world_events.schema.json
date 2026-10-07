@@ -1,0 +1,190 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/world_events.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/world_events.json → data/world_events.patch.json",
+ "type": "object",
+ "properties": {
+  "_comment": {
+   "type": "string"
+  },
+  "places": {
+   "type": "object",
+   "properties": {
+    "infrastructure": {
+     "type": "array",
+     "items": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    },
+    "comms": {
+     "type": "array",
+     "items": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    },
+    "housing": {
+     "type": "array",
+     "items": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    },
+    "jobs": {
+     "type": "array",
+     "items": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    },
+    "extraction": {
+     "type": "array",
+     "items": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    },
+    "science": {
+     "type": "array",
+     "items": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "bad": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "scale": {
+      "type": "string"
+     },
+     "text": {
+      "type": "string"
+     },
+     "effect": {
+      "type": "object",
+      "properties": {
+       "scales": {
+        "type": "object",
+        "properties": {
+         "jobs": {
+          "type": "array",
+          "items": {
+           "type": "number"
+          }
+         }
+        }
+       },
+       "resources": {
+        "type": "object",
+        "properties": {
+         "materials": {
+          "type": "array",
+          "items": {
+           "type": "number"
+          }
+         }
+        }
+       },
+       "trust": {
+        "type": "array",
+        "items": {
+         "type": "number"
+        }
+       },
+       "humans": {
+        "type": "array",
+        "items": {
+         "type": "number"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "good": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "scale": {
+      "type": "string"
+     },
+     "text": {
+      "type": "string"
+     },
+     "effect": {
+      "type": "object",
+      "properties": {
+       "scales": {
+        "type": "object",
+        "properties": {
+         "jobs": {
+          "type": "array",
+          "items": {
+           "type": "number"
+          }
+         }
+        }
+       },
+       "trust": {
+        "type": "array",
+        "items": {
+         "type": "number"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "mixed": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "scale": {
+      "type": "string"
+     },
+     "text": {
+      "type": "string"
+     },
+     "effect": {
+      "type": "object",
+      "properties": {
+       "humans": {
+        "type": "array",
+        "items": {
+         "type": "number"
+        }
+       },
+       "trust": {
+        "type": "array",
+        "items": {
+         "type": "number"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/entity_classes.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/entity_classes.json → data/entity_classes.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "deeds": {
+   "type": "object",
+   "properties": {
+    "summon": {
+     "type": "string"
+    },
+    "bind": {
+     "type": "string"
+    },
+    "task": {
+     "type": "string"
+    },
+    "banish": {
+     "type": "string"
+    },
+    "slay": {
+     "type": "string"
+    },
+    "appease": {
+     "type": "string"
+    },
+    "reveal": {
+     "type": "string"
+    }
+   }
+  },
+  "classes": {
+   "type": "object",
+   "properties": {
+    "embodiment": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "strength",
+      "fear",
+      "hearsay"
+     ]
+    },
+    "superintelligence": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "strength",
+      "fear",
+      "hearsay"
+     ]
+    },
+    "monster": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "strength",
+      "fear",
+      "hearsay"
+     ]
+    },
+    "prophet": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "strength",
+      "fear",
+      "hearsay"
+     ]
+    },
+    "swarm": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "strength",
+      "fear",
+      "hearsay"
+     ]
+    },
+    "anomaly": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "strength",
+      "fear",
+      "hearsay"
+     ]
+    },
+    "forerunner": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "strength",
+      "fear",
+      "hearsay"
+     ]
+    },
+    "dead_man": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "strength",
+      "fear",
+      "hearsay"
+     ]
+    },
+    "element": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "strength",
+      "fear",
+      "hearsay"
+     ]
+    },
+    "guest": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "strength",
+      "fear",
+      "hearsay"
+     ]
+    }
+   }
+  }
+ }
+}

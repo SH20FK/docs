@@ -1,0 +1,93 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/epochs/earth_vaalbara/regions.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/epochs/earth_vaalbara/regions.json → data/epochs/earth_vaalbara/regions.patch.json",
+ "type": "object",
+ "properties": {
+  "_manner_this_works": {
+   "type": "string"
+  },
+  "width": {
+   "type": "number"
+  },
+  "height": {
+   "type": "number"
+  },
+  "caption": {
+   "type": "string"
+  },
+  "regions": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "number"
+     },
+     "names": {
+      "type": "object",
+      "properties": {
+       "ru": {
+        "type": "string"
+       },
+       "en": {
+        "type": "string"
+       },
+       "de": {
+        "type": "string"
+       },
+       "es": {
+        "type": "string"
+       },
+       "fr": {
+        "type": "string"
+       },
+       "it": {
+        "type": "string"
+       },
+       "ja": {
+        "type": "string"
+       },
+       "ko": {
+        "type": "string"
+       },
+       "zh": {
+        "type": "string"
+       }
+      }
+     },
+     "country": {
+      "type": "string"
+     },
+     "area": {
+      "type": "number"
+     },
+     "ш": {
+      "type": "number"
+     },
+     "д": {
+      "type": "number"
+     },
+     "caption": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     },
+     "coast": {
+      "type": "boolean"
+     },
+     "neighbours": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     },
+     "on_water": {
+      "type": "boolean"
+     }
+    }
+   }
+  }
+ }
+}

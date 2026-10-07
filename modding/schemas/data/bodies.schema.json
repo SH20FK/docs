@@ -1,0 +1,75 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/bodies.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/bodies.json → data/bodies.patch.json",
+ "type": "object",
+ "properties": {
+  "_magnitude": {
+   "type": "string"
+  },
+  "belts": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "inner": {
+      "type": "number"
+     },
+     "external": {
+      "type": "number"
+     },
+     "thickness": {
+      "type": "number"
+     },
+     "pieces": {
+      "type": "number"
+     },
+     "size": {
+      "type": "number"
+     },
+     "colour": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "bodies": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "genus": {
+      "type": "string"
+     },
+     "r": {
+      "type": "number"
+     },
+     "a": {
+      "type": "number"
+     },
+     "angle": {
+      "type": "number"
+     },
+     "open": {
+      "type": "boolean"
+     },
+     "description": {
+      "type": "string"
+     },
+     "map": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ }
+}

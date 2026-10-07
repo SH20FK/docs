@@ -1,0 +1,30 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/regions2_из1.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/regions2_из1.json → data/regions2_из1.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "new_result_old": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "array",
+    "items": {
+     "type": "array",
+     "items": {
+      "type": "number"
+     }
+    }
+   },
+   "x-examples": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  }
+ }
+}

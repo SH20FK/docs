@@ -1,0 +1,145 @@
+{
+	"events": {
+		"$append": [
+			{
+				"id": "example_events_drought",
+				"title": {
+					"ru": "Засуха",
+					"en": "Drought"
+				},
+				"text": {
+					"ru": "Третью неделю ни капли. Колодцы мелеют, крестьяне просят помощи.",
+					"en": "Not a drop for three weeks. Wells are drying up and farmers ask for help."
+				},
+				"conditions": {
+					"resource": {
+						"food": {
+							"меньше": 500
+						}
+					}
+				},
+				"шанс_v_year": 0.8,
+				"times": 3,
+				"options": [
+					{
+						"text": {
+							"ru": "Открыть госрезерв (−200 денег, +300 еды)",
+							"en": "Open the state reserve (−200 money, +300 food)"
+						},
+						"conditions": {
+							"money": {
+								"не_меньше": 200
+							}
+						},
+						"effects": {
+							"money": -200,
+							"resources": {
+								"food": 300
+							},
+							"chronicle": {
+								"text": {
+									"ru": "Госрезерв открыт: засуху пережили.",
+									"en": "The reserve was opened: the drought was weathered."
+								},
+								"tone": "good"
+							}
+						}
+					},
+					{
+						"text": {
+							"ru": "Пусть справляются сами",
+							"en": "Let them manage on their own"
+						},
+						"effects": {
+							"resources": {
+								"food": -100
+							},
+							"flag": "example_events_ignored_drought",
+							"chronicle": {
+								"text": {
+									"ru": "Засуху оставили на совести крестьян. Это запомнят.",
+									"en": "The drought was left to the farmers. They will remember."
+								},
+								"tone": "bad"
+							}
+						}
+					}
+				]
+			},
+			{
+				"id": "example_events_delegation",
+				"title": {
+					"ru": "Иностранная делегация",
+					"en": "A foreign delegation"
+				},
+				"text": {
+					"ru": "Соседи прислали делегацию: мир у вас держится давно, и они хотят торговать.",
+					"en": "Neighbours sent a delegation: your peace has lasted and they want to trade."
+				},
+				"conditions": {
+					"at_war": false,
+					"after": "2026-06-01",
+					"missing_flag": "example_events_ignored_drought"
+				},
+				"шанс_v_year": 0.5,
+				"options": [
+					{
+						"text": {
+							"ru": "Принять с почётом (+100 денег)",
+							"en": "Receive them with honours (+100 money)"
+						},
+						"effects": {
+							"money": 100
+						}
+					},
+					{
+						"text": {
+							"ru": "Вежливо отказать",
+							"en": "Politely decline"
+						},
+						"effects": {
+							"сообщение": {
+								"ru": "Делегация уехала ни с чем.",
+								"en": "The delegation left empty-handed."
+							}
+						}
+					}
+				]
+			}
+		]
+	},
+	"decisions": {
+		"$append": [
+			{
+				"id": "example_events_public_works",
+				"title": {
+					"ru": "Народная стройка",
+					"en": "Public works"
+				},
+				"text": {
+					"ru": "Нанять безработных на дороги: деньги уйдут, зато будут стройматериалы и довольные люди.",
+					"en": "Hire the unemployed to build roads: money goes, materials and goodwill come."
+				},
+				"price": 300,
+				"conditions": {
+					"money": {
+						"не_меньше": 300
+					}
+				},
+				"rollback_days": 180,
+				"effects": {
+					"resources": {
+						"materials": 250
+					},
+					"chronicle": {
+						"text": {
+							"ru": "Народная стройка идёт: дороги растут.",
+							"en": "Public works are under way: roads are growing."
+						},
+						"tone": "good"
+					}
+				}
+			}
+		]
+	}
+}

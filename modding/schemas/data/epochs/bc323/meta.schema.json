@@ -1,0 +1,59 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/epochs/bc323/meta.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/epochs/bc323/meta.json → data/epochs/bc323/meta.patch.json",
+ "type": "object",
+ "properties": {
+  "era": {
+   "type": "string"
+  },
+  "year": {
+   "type": "number"
+  },
+  "population": {
+   "type": "number"
+  },
+  "factions": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": {
+     "type": "string"
+    },
+    "x-examples": [
+     "name",
+     "type",
+     "body",
+     "zones",
+     "capital"
+    ]
+   }
+  },
+  "provinces_zones": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "string"
+   },
+   "x-examples": [
+    "363",
+    "365",
+    "529",
+    "1103",
+    "1104"
+   ]
+  },
+  "provinces_zones_2": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "string"
+   },
+   "x-examples": [
+    "1",
+    "4",
+    "5",
+    "6",
+    "7"
+   ]
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+	"bodies": {
+		"$append": [
+			{
+				"name": "Тея",
+				"genus": "rock",
+				"r": 4100,
+				"a": 285000000,
+				"angle": 40,
+				"sid": 7.3,
+				"open": true,
+				"description": "Потерянная планета: по одной из гипотез, её осколок стал Луной. В этом мире она уцелела.",
+				"parameters": {
+					"temperature": 0.3,
+					"water": 0.35,
+					"biomass": 0.05,
+					"radiation": 0.2,
+					"atmosphere": 0.4,
+					"urban": 0.0,
+					"magnetic": 0.3
+				},
+				"map": "res://mods/example_theia/planets/theia",
+				"map_sea": 0.52,
+				"height_rainbow": 0
+			}
+		]
+	}
+}

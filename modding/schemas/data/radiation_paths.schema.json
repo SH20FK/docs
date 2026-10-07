@@ -1,0 +1,53 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/radiation_paths.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/radiation_paths.json → data/radiation_paths.patch.json",
+ "type": "object",
+ "properties": {
+  "_manner_this_works": {
+   "type": "string"
+  },
+  "routes": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "key": {
+      "type": "string"
+     },
+     "gist": {
+      "type": "string"
+     },
+     "hint": {
+      "type": "string"
+     },
+     "needs": {
+      "type": "object",
+      "properties": {
+       "science": {
+        "type": "number"
+       },
+       "biomass": {
+        "type": "number"
+       }
+      }
+     },
+     "strength": {
+      "type": "number"
+     },
+     "days_min": {
+      "type": "number"
+     },
+     "condition": {
+      "type": "object",
+      "properties": {
+       "biomass": {
+        "type": "number"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

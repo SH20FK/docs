@@ -1,0 +1,128 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/preset_default.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/preset_default.json → data/preset_default.patch.json",
+ "type": "object",
+ "properties": {
+  "name": {
+   "type": "string"
+  },
+  "lore_systems": {
+   "type": "string"
+  },
+  "lore_bodies": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "string"
+   },
+   "x-examples": [
+    "Земля",
+    "Луна",
+    "Марс",
+    "Венера",
+    "Меркурий"
+   ]
+  },
+  "story": {
+   "type": "object",
+   "properties": {
+    "places": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "properties": {
+       "name": {
+        "type": "string"
+       },
+       "lore": {
+        "type": "string"
+       },
+       "states": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "weight": {
+           "type": "number"
+          },
+          "lore": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "events": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "properties": {
+       "name": {
+        "type": "string"
+       },
+       "weight": {
+        "type": "number"
+       },
+       "condition": {
+        "type": "string"
+       },
+       "prompt": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "turns": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "properties": {
+       "name": {
+        "type": "string"
+       },
+       "weight": {
+        "type": "number"
+       },
+       "condition": {
+        "type": "string"
+       },
+       "prompt": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "rules_for_ai": {
+     "type": "string"
+    }
+   }
+  },
+  "factions": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": {
+     "type": "string"
+    },
+    "x-examples": [
+     "name",
+     "type",
+     "body",
+     "origin",
+     "where_live"
+    ]
+   }
+  },
+  "territories": {
+   "type": "array"
+  },
+  "preview": {
+   "type": "string"
+  }
+ }
+}

@@ -1,0 +1,8 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "pax-universe/lang.schema.json",
+	"title": "Pax Universe translation file (data/lang/<code>.json)",
+	"description": "Flat dictionary key → text. Keys from mods are merged into the game dictionary (they do not replace it). Use %s / %d placeholders with tr_key(key) % [args]. Body display names: \"тело_<body id>\". Prefix your own keys with your mod id.",
+	"type": "object",
+	"additionalProperties": {"type": "string"}
+}

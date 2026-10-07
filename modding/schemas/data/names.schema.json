@@ -1,0 +1,256 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/names.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/names.json → data/names.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "languages": {
+   "type": "object",
+   "properties": {
+    "ru": {
+     "type": "object",
+     "properties": {
+      "name_language": {
+       "type": "string"
+      },
+      "male": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "female": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "surnames": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "en": {
+     "type": "object",
+     "properties": {
+      "name_language": {
+       "type": "string"
+      },
+      "male": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "female": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "surnames": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "de": {
+     "type": "object",
+     "properties": {
+      "name_language": {
+       "type": "string"
+      },
+      "male": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "female": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "surnames": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "fr": {
+     "type": "object",
+     "properties": {
+      "name_language": {
+       "type": "string"
+      },
+      "male": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "female": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "surnames": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "es": {
+     "type": "object",
+     "properties": {
+      "name_language": {
+       "type": "string"
+      },
+      "male": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "female": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "surnames": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "it": {
+     "type": "object",
+     "properties": {
+      "name_language": {
+       "type": "string"
+      },
+      "male": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "female": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "surnames": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "ja": {
+     "type": "object",
+     "properties": {
+      "name_language": {
+       "type": "string"
+      },
+      "male": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "female": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "surnames": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "zh": {
+     "type": "object",
+     "properties": {
+      "name_language": {
+       "type": "string"
+      },
+      "male": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "female": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "surnames": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "ko": {
+     "type": "object",
+     "properties": {
+      "name_language": {
+       "type": "string"
+      },
+      "male": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "female": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "surnames": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   }
+  },
+  "manner_use": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  }
+ }
+}

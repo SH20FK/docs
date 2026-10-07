@@ -1,0 +1,27 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/crises.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/crises.json → data/crises.patch.json",
+ "type": "object",
+ "properties": {
+  "_comment": {
+   "type": "string"
+  },
+  "crises": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": {
+     "type": "string"
+    },
+    "x-examples": [
+     "id",
+     "name",
+     "era",
+     "explanation",
+     "needs"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/tech_classes.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/tech_classes.json → data/tech_classes.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "classes": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "pictogram": {
+      "type": "string"
+     },
+     "scales": {
+      "type": "object",
+      "properties": {
+       "extraction": {
+        "type": "number"
+       },
+       "infrastructure": {
+        "type": "number"
+       }
+      }
+     },
+     "stars": {
+      "type": "object",
+      "properties": {
+       "wellness": {
+        "type": "number"
+       }
+      }
+     },
+     "saving": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "planet": {
+      "type": "object",
+      "properties": {
+       "atmosphere": {
+        "type": "number"
+       }
+      }
+     },
+     "double": {
+      "type": "boolean"
+     },
+     "insights": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "glad": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "afraid": {
+      "type": "array"
+     }
+    }
+   },
+   "x-examples": [
+    "energy",
+    "medicine",
+    "agriculture",
+    "materials",
+    "computing"
+   ]
+  },
+  "fallback": {
+   "type": "string"
+  }
+ }
+}

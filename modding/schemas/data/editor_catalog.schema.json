@@ -1,0 +1,42 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/editor_catalog.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/editor_catalog.json → data/editor_catalog.patch.json",
+ "type": "object",
+ "properties": {
+  "_description": {
+   "type": "string"
+  },
+  "branches": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "icon": {
+      "type": "string"
+     },
+     "items": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "id": {
+         "type": "string"
+        },
+        "file": {
+         "type": "string"
+        },
+        "path": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

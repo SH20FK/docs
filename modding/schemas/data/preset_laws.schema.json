@@ -1,0 +1,11 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/preset_laws.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/preset_laws.json → data/preset_laws.patch.json",
+ "type": "object",
+ "properties": {
+  "_manner_this_works": {
+   "type": "string"
+  }
+ }
+}

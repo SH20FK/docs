@@ -1,0 +1,309 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/unit_branches.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/unit_branches.json → data/unit_branches.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "genera": {
+   "type": "object",
+   "properties": {
+    "infantry": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "env": {
+       "type": "string"
+      },
+      "speed": {
+       "type": "number"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "against": {
+       "type": "object"
+      },
+      "science": {
+       "type": "number"
+      }
+     }
+    },
+    "motor_infantry": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "env": {
+       "type": "string"
+      },
+      "speed": {
+       "type": "number"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "against": {
+       "type": "object",
+       "properties": {
+        "infantry": {
+         "type": "number"
+        }
+       }
+      },
+      "science": {
+       "type": "number"
+      }
+     }
+    },
+    "armour": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "env": {
+       "type": "string"
+      },
+      "speed": {
+       "type": "number"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "against": {
+       "type": "object",
+       "properties": {
+        "infantry": {
+         "type": "number"
+        },
+        "motor_infantry": {
+         "type": "number"
+        }
+       }
+      },
+      "science": {
+       "type": "number"
+      }
+     }
+    },
+    "naval_infantry": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "env": {
+       "type": "string"
+      },
+      "speed": {
+       "type": "number"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "against": {
+       "type": "object",
+       "properties": {
+        "infantry": {
+         "type": "number"
+        }
+       }
+      },
+      "science": {
+       "type": "number"
+      }
+     }
+    },
+    "fleet": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "env": {
+       "type": "string"
+      },
+      "speed": {
+       "type": "number"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "against": {
+       "type": "object",
+       "properties": {
+        "naval_infantry": {
+         "type": "number"
+        }
+       }
+      },
+      "science": {
+       "type": "number"
+      }
+     }
+    },
+    "aviation": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "env": {
+       "type": "string"
+      },
+      "speed": {
+       "type": "number"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "against": {
+       "type": "object",
+       "properties": {
+        "armour": {
+         "type": "number"
+        },
+        "infantry": {
+         "type": "number"
+        },
+        "fleet": {
+         "type": "number"
+        }
+       }
+      },
+      "science": {
+       "type": "number"
+      }
+     }
+    },
+    "air_defense": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "env": {
+       "type": "string"
+      },
+      "speed": {
+       "type": "number"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "against": {
+       "type": "object",
+       "properties": {
+        "aviation": {
+         "type": "number"
+        }
+       }
+      },
+      "science": {
+       "type": "number"
+      }
+     }
+    },
+    "drones_i_robots": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "env": {
+       "type": "string"
+      },
+      "speed": {
+       "type": "number"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "against": {
+       "type": "object",
+       "properties": {
+        "infantry": {
+         "type": "number"
+        }
+       }
+      },
+      "science": {
+       "type": "number"
+      }
+     }
+    },
+    "special_forces": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "env": {
+       "type": "string"
+      },
+      "speed": {
+       "type": "number"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "against": {
+       "type": "object",
+       "properties": {
+        "air_defense": {
+         "type": "number"
+        }
+       }
+      },
+      "science": {
+       "type": "number"
+      }
+     }
+    },
+    "orbital_landing": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "env": {
+       "type": "string"
+      },
+      "speed": {
+       "type": "number"
+      },
+      "strength": {
+       "type": "number"
+      },
+      "against": {
+       "type": "object",
+       "properties": {
+        "air_defense": {
+         "type": "number"
+        },
+        "infantry": {
+         "type": "number"
+        }
+       }
+      },
+      "science": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "soldier_v_divisions": {
+   "type": "number"
+  },
+  "_explanation_divisions": {
+   "type": "string"
+  }
+ }
+}

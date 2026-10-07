@@ -1,0 +1,499 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/economy/deposits.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/economy/deposits.json → data/economy/deposits.patch.json",
+ "type": "object",
+ "properties": {
+  "_description": {
+   "type": "string"
+  },
+  "_fields": {
+   "type": "object",
+   "properties": {
+    "en": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "paths": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "aliases_en": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "level": {
+       "type": "string"
+      },
+      "paths": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "wealth": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "level": {
+       "type": "string"
+      },
+      "paths": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "only_where_life_was": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "paths": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "fuel": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "paths": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "anywhere": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "paths": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "threshold": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "min": {
+       "type": "number"
+      },
+      "max": {
+       "type": "number"
+      },
+      "level": {
+       "type": "string"
+      },
+      "paths": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   }
+  },
+  "kinds": {
+   "type": "object",
+   "properties": {
+    "oil": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "wealth": {
+       "type": "string"
+      },
+      "only_where_life_was": {
+       "type": "boolean"
+      }
+     }
+    },
+    "coal": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "wealth": {
+       "type": "string"
+      },
+      "only_where_life_was": {
+       "type": "boolean"
+      }
+     }
+    },
+    "gas": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "wealth": {
+       "type": "string"
+      },
+      "only_where_life_was": {
+       "type": "boolean"
+      }
+     }
+    },
+    "black_metals": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "wealth": {
+       "type": "string"
+      },
+      "only_where_life_was": {
+       "type": "boolean"
+      },
+      "aliases_en": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "colored_metals": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "wealth": {
+       "type": "string"
+      },
+      "only_where_life_was": {
+       "type": "boolean"
+      },
+      "aliases_en": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   }
+  },
+  "by_terrain": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "oil": {
+      "type": "number"
+     },
+     "gas": {
+      "type": "number"
+     },
+     "coal": {
+      "type": "number"
+     },
+     "black_metals": {
+      "type": "number"
+     },
+     "colored_metals": {
+      "type": "number"
+     }
+    }
+   },
+   "x-examples": [
+    "desert",
+    "steppe",
+    "farmland",
+    "swamps",
+    "taiga"
+   ]
+  },
+  "default_terrain": {
+   "type": "string"
+  },
+  "by_country": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "oil": {
+      "type": "number"
+     },
+     "gas": {
+      "type": "number"
+     }
+    }
+   },
+   "x-examples": [
+    "Саудовская Аравия",
+    "Россия",
+    "США",
+    "Иран",
+    "Ирак"
+   ]
+  },
+  "per_thousand_km2": {
+   "type": "number"
+  },
+  "threshold": {
+   "type": "number"
+  },
+  "stations": {
+   "type": "object",
+   "properties": {
+    "sun": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "fuel": {
+       "type": "string"
+      },
+      "anywhere": {
+       "type": "boolean"
+      },
+      "threshold": {
+       "type": "number"
+      }
+     }
+    },
+    "wind": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "fuel": {
+       "type": "string"
+      },
+      "anywhere": {
+       "type": "boolean"
+      },
+      "threshold": {
+       "type": "number"
+      }
+     }
+    },
+    "river": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "fuel": {
+       "type": "string"
+      },
+      "anywhere": {
+       "type": "boolean"
+      },
+      "threshold": {
+       "type": "number"
+      }
+     }
+    },
+    "atom": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "fuel": {
+       "type": "string"
+      },
+      "anywhere": {
+       "type": "boolean"
+      },
+      "threshold": {
+       "type": "number"
+      }
+     }
+    },
+    "heat": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "fuel": {
+       "type": "string"
+      },
+      "anywhere": {
+       "type": "boolean"
+      },
+      "threshold": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  }
+ }
+}

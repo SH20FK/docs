@@ -1,0 +1,68 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/economy/enterprises.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/economy/enterprises.json → data/economy/enterprises.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "types": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "kind": {
+      "type": "string"
+     },
+     "output": {
+      "type": "object",
+      "properties": {
+       "food": {
+        "type": "number"
+       }
+      }
+     },
+     "entry": {
+      "type": "object",
+      "properties": {
+       "energy": {
+        "type": "number"
+       }
+      }
+     },
+     "workers": {
+      "type": "number"
+     },
+     "science": {
+      "type": "number"
+     },
+     "costs": {
+      "type": "object",
+      "properties": {
+       "materials": {
+        "type": "number"
+       },
+       "money": {
+        "type": "number"
+       }
+      }
+     },
+     "upkeep": {
+      "type": "number"
+     },
+     "en": {
+      "type": "string"
+     }
+    }
+   },
+   "x-examples": [
+    "farm",
+    "water_intake",
+    "oil_field",
+    "gas_field",
+    "coal_mine"
+   ]
+  }
+ }
+}

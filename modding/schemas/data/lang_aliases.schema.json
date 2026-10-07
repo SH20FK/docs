@@ -1,0 +1,24 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/lang_aliases.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/lang_aliases.json → data/lang_aliases.patch.json",
+ "type": "object",
+ "properties": {
+  "_description": {
+   "type": "string"
+  },
+  "aliases": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "string"
+   },
+   "x-examples": [
+    "подзаголовок",
+    "язык",
+    "продолжить",
+    "новая_игра",
+    "настройки"
+   ]
+  }
+ }
+}

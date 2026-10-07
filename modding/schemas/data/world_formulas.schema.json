@@ -1,0 +1,17 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/world_formulas.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/world_formulas.json → data/world_formulas.patch.json",
+ "type": "object",
+ "properties": {
+  "_description": {
+   "type": "string"
+  },
+  "indicators": {
+   "type": "object"
+  },
+  "effects": {
+   "type": "array"
+  }
+ }
+}

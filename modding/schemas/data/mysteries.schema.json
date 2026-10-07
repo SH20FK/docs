@@ -1,0 +1,108 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/mysteries.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/mysteries.json → data/mysteries.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "mysteries": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "key": {
+      "type": "string"
+     },
+     "tier_level": {
+      "type": "string"
+     },
+     "where": {
+      "type": "string"
+     },
+     "type": {
+      "type": "string"
+     },
+     "clue": {
+      "type": "string"
+     },
+     "traces": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "truth": {
+      "type": "string"
+     },
+     "outcomes": {
+      "type": "object",
+      "properties": {
+       "guessed": {
+        "type": "object",
+        "properties": {
+         "tone": {
+          "type": "string"
+         },
+         "gift": {
+          "type": "object",
+          "properties": {
+           "science": {
+            "type": "number"
+           },
+           "rare": {
+            "type": "number"
+           }
+          }
+         },
+         "what": {
+          "type": "string"
+         }
+        }
+       },
+       "erred": {
+        "type": "object",
+        "properties": {
+         "tone": {
+          "type": "string"
+         },
+         "gift": {
+          "type": "object",
+          "properties": {
+           "science": {
+            "type": "number"
+           }
+          }
+         },
+         "what": {
+          "type": "string"
+         }
+        }
+       },
+       "climbed": {
+        "type": "object",
+        "properties": {
+         "tone": {
+          "type": "string"
+         },
+         "damage": {
+          "type": "object",
+          "properties": {
+           "humans": {
+            "type": "number"
+           }
+          }
+         },
+         "what": {
+          "type": "string"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,255 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/economy/goods.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/economy/goods.json → data/economy/goods.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "_fields": {
+   "type": "object",
+   "properties": {
+    "name": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "default": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "class": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "u": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "price": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "min": {
+       "type": "number"
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "humans": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "min": {
+       "type": "number"
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "flow": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "en": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "level": {
+       "type": "string"
+      }
+     }
+    },
+    "basic": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "hint": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "level": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  },
+  "goods": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "class": {
+      "type": "string"
+     },
+     "u": {
+      "type": "string"
+     },
+     "price": {
+      "type": "number"
+     },
+     "en": {
+      "type": "string"
+     },
+     "humans": {
+      "type": "number"
+     },
+     "basic": {
+      "type": "boolean"
+     }
+    }
+   },
+   "x-examples": [
+    "food",
+    "water",
+    "energy",
+    "fuel",
+    "materials"
+   ]
+  }
+ }
+}

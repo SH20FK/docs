@@ -1,0 +1,11 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/politics/figures.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/politics/figures.json → data/politics/figures.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  }
+ }
+}

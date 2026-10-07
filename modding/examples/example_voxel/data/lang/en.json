@@ -1,0 +1,12 @@
+{
+	"vox_button": "🧊 Voxels",
+	"vox_title": "A voxel copy of the planet",
+	"vox_hint": "Left button — a crater. Right — rotate. Wheel — closer and farther.",
+	"vox_over": "Under the cursor: %s%s",
+	"vox_owner": " · %s",
+	"vox_nothing": "water",
+	"vox_craters": "Craters: %d",
+	"vox_station": "Station from JSON",
+	"vox_reset": "Heal the craters",
+	"vox_no_component": "The \"voxel\" component is missing. Open the launcher — it downloads it for enabled mods."
+}

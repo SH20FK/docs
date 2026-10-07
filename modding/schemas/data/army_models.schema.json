@@ -1,0 +1,88 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/army_models.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/army_models.json → data/army_models.patch.json",
+ "type": "object",
+ "properties": {
+  "_explanation": {
+   "type": "string"
+  },
+  "types": {
+   "type": "object",
+   "properties": {
+    "contract": {
+     "type": "object",
+     "properties": {
+      "share": {
+       "type": "number"
+      },
+      "quality": {
+       "type": "number"
+      },
+      "technicians": {
+       "type": "number"
+      }
+     }
+    },
+    "mixed_f": {
+     "type": "object",
+     "properties": {
+      "share": {
+       "type": "number"
+      },
+      "quality": {
+       "type": "number"
+      },
+      "technicians": {
+       "type": "number"
+      }
+     }
+    },
+    "conscript": {
+     "type": "object",
+     "properties": {
+      "share": {
+       "type": "number"
+      },
+      "quality": {
+       "type": "number"
+      },
+      "technicians": {
+       "type": "number"
+      }
+     }
+    },
+    "mobilization": {
+     "type": "object",
+     "properties": {
+      "share": {
+       "type": "number"
+      },
+      "quality": {
+       "type": "number"
+      },
+      "technicians": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "po_default": {
+   "type": "string"
+  },
+  "countries": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "string"
+   },
+   "x-examples": [
+    "США",
+    "Великобритания",
+    "Франция",
+    "Германия",
+    "Япония"
+   ]
+  }
+ }
+}

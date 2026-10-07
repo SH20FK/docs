@@ -1,0 +1,93 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/weapon_classes.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/weapon_classes.json → data/weapon_classes.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "classes": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "en": {
+      "type": "string"
+     },
+     "humans": {
+      "type": "number"
+     },
+     "city": {
+      "type": "number"
+     },
+     "troops": {
+      "type": "number"
+     },
+     "condemnation": {
+      "type": "number"
+     },
+     "science": {
+      "type": "number"
+     },
+     "bonus_army": {
+      "type": "number"
+     },
+     "price_unit": {
+      "type": "number"
+     }
+    }
+   },
+   "x-examples": [
+    "small_arms",
+    "artillery",
+    "missiles_i_bombs",
+    "thermobaric",
+    "nonlethal"
+   ]
+  },
+  "nuclear_powers": {
+   "type": "object"
+  },
+  "nuclear_winter": {
+   "type": "object",
+   "properties": {
+    "_": {
+     "type": "string"
+    },
+    "threshold_dust": {
+     "type": "number"
+    },
+    "harvest_until": {
+     "type": "number"
+    },
+    "trust_for_strike": {
+     "type": "number"
+    },
+    "half_life_dust_weeks": {
+     "type": "number"
+    }
+   }
+  },
+  "genera": {
+   "type": "object",
+   "properties": {
+    "_": {
+     "type": "string"
+    },
+    "infantry": {
+     "type": "number"
+    },
+    "vehicles": {
+     "type": "number"
+    },
+    "air": {
+     "type": "number"
+    },
+    "support": {
+     "type": "number"
+    }
+   }
+  }
+ }
+}

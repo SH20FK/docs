@@ -1,0 +1,34 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/terrain.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/terrain.json → data/terrain.patch.json",
+ "type": "object",
+ "properties": {
+  "_manner_this_works": {
+   "type": "string"
+  },
+  "types": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "key": {
+      "type": "string"
+     },
+     "colour": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     },
+     "auto": {
+      "type": "boolean"
+     },
+     "for_models": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ }
+}

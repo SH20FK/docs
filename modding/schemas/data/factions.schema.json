@@ -1,0 +1,47 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/factions.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/factions.json → data/factions.patch.json",
+ "type": "object",
+ "properties": {
+  "_manner_this_works": {
+   "type": "string"
+  },
+  "ours": {
+   "type": "object",
+   "properties": {
+    "title_name": {
+     "type": "string"
+    },
+    "colour": {
+     "type": "array",
+     "items": {
+      "type": "number"
+     }
+    },
+    "description": {
+     "type": "string"
+    }
+   }
+  },
+  "strangers": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": {
+     "type": "string"
+    },
+    "x-examples": [
+     "type",
+     "colour",
+     "strength",
+     "names",
+     "description"
+    ]
+   }
+  },
+  "_hidden": {
+   "type": "string"
+  }
+ }
+}

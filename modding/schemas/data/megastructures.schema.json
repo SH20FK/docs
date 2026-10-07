@@ -1,0 +1,370 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/megastructures.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/megastructures.json → data/megastructures.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "classes": {
+   "type": "object",
+   "properties": {
+    "power_station": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "where": {
+       "type": "string"
+      },
+      "kind": {
+       "type": "string"
+      },
+      "science": {
+       "type": "number"
+      },
+      "tier": {
+       "type": "number"
+      },
+      "appointments": {
+       "type": "object",
+       "properties": {
+        "residential": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "housing": {
+           "type": "number"
+          },
+          "model": {
+           "type": "string"
+          }
+         }
+        },
+        "science_f": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "science": {
+           "type": "number"
+          },
+          "model": {
+           "type": "string"
+          }
+         }
+        },
+        "shipyard": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "payload": {
+           "type": "number"
+          },
+          "model": {
+           "type": "string"
+          }
+         }
+        },
+        "depot": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "stores": {
+           "type": "boolean"
+          },
+          "model": {
+           "type": "string"
+          }
+         }
+        },
+        "defensive": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "defense": {
+           "type": "number"
+          },
+          "model": {
+           "type": "string"
+          }
+         }
+        },
+        "agro": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "food": {
+           "type": "number"
+          },
+          "model": {
+           "type": "string"
+          }
+         }
+        },
+        "industrial": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "materials": {
+           "type": "number"
+          },
+          "model": {
+           "type": "string"
+          }
+         }
+        },
+        "tourist": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "money": {
+           "type": "number"
+          },
+          "model": {
+           "type": "string"
+          }
+         }
+        },
+        "transport_hub": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "payload": {
+           "type": "number"
+          },
+          "stores": {
+           "type": "boolean"
+          },
+          "model": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "space_lift": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "where": {
+       "type": "string"
+      },
+      "kind": {
+       "type": "string"
+      },
+      "science": {
+       "type": "number"
+      },
+      "tier": {
+       "type": "number"
+      },
+      "payload": {
+       "type": "number"
+      },
+      "model": {
+       "type": "string"
+      }
+     }
+    },
+    "orbital_ring": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "where": {
+       "type": "string"
+      },
+      "kind": {
+       "type": "string"
+      },
+      "science": {
+       "type": "number"
+      },
+      "tier": {
+       "type": "number"
+      },
+      "payload": {
+       "type": "number"
+      },
+      "housing": {
+       "type": "number"
+      },
+      "energy": {
+       "type": "number"
+      },
+      "po_default": {
+       "type": "string"
+      },
+      "model_hub": {
+       "type": "string"
+      },
+      "stages": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "cylinder_onila": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "where": {
+       "type": "string"
+      },
+      "kind": {
+       "type": "string"
+      },
+      "science": {
+       "type": "number"
+      },
+      "tier": {
+       "type": "number"
+      },
+      "housing": {
+       "type": "number"
+      },
+      "food": {
+       "type": "number"
+      },
+      "model": {
+       "type": "string"
+      }
+     }
+    },
+    "solar_mirrors": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "where": {
+       "type": "string"
+      },
+      "kind": {
+       "type": "string"
+      },
+      "science": {
+       "type": "number"
+      },
+      "tier": {
+       "type": "number"
+      },
+      "light": {
+       "type": "number"
+      }
+     }
+    },
+    "solar_shield": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "where": {
+       "type": "string"
+      },
+      "kind": {
+       "type": "string"
+      },
+      "science": {
+       "type": "number"
+      },
+      "tier": {
+       "type": "number"
+      },
+      "light": {
+       "type": "number"
+      }
+     }
+    },
+    "swarm_dyson": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "where": {
+       "type": "string"
+      },
+      "kind": {
+       "type": "string"
+      },
+      "science": {
+       "type": "number"
+      },
+      "tier": {
+       "type": "number"
+      },
+      "completion": {
+       "type": "boolean"
+      },
+      "light_planets": {
+       "type": "number"
+      },
+      "power_share": {
+       "type": "number"
+      }
+     }
+    },
+    "sphere_dyson": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "where": {
+       "type": "string"
+      },
+      "kind": {
+       "type": "string"
+      },
+      "science": {
+       "type": "number"
+      },
+      "tier": {
+       "type": "number"
+      },
+      "completion": {
+       "type": "boolean"
+      },
+      "light_planets": {
+       "type": "number"
+      },
+      "power_share": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  }
+ }
+}

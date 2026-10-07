@@ -1,0 +1,98 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/quests.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/quests.json → data/quests.patch.json",
+ "type": "object",
+ "properties": {
+  "_description": {
+   "type": "string"
+  },
+  "_fields": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "label": {
+      "type": "object",
+      "properties": {
+       "ru": {
+        "type": "string"
+       },
+       "en": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   },
+   "x-examples": [
+    "minor",
+    "deed",
+    "large",
+    "fate",
+    "interworld"
+   ]
+  },
+  "turns_reserve": {
+   "type": "object",
+   "properties": {
+    "minor": {
+     "type": "number"
+    },
+    "deed": {
+     "type": "number"
+    },
+    "large": {
+     "type": "number"
+    },
+    "fate": {
+     "type": "number"
+    },
+    "interworld": {
+     "type": "number"
+    }
+   }
+  },
+  "fitting": {
+   "type": "object",
+   "properties": {
+    "bring": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "reach": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "learn": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "construct": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "remove": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "universals": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  }
+ }
+}

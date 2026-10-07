@@ -1,0 +1,361 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/map_styles.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/map_styles.json → data/map_styles.patch.json",
+ "type": "object",
+ "properties": {
+  "_manner_this_works": {
+   "type": "string"
+  },
+  "order": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "retro": {
+   "type": "object",
+   "properties": {
+    "st_scan": {
+     "type": "number"
+    },
+    "st_vignette": {
+     "type": "number"
+    },
+    "st_grain": {
+     "type": "number"
+    },
+    "st_tint": {
+     "type": "array",
+     "items": {
+      "type": "number"
+     }
+    },
+    "st_lift": {
+     "type": "array",
+     "items": {
+      "type": "number"
+     }
+    }
+   }
+  },
+  "normal": {
+   "type": "object",
+   "properties": {
+    "number": {
+     "type": "number"
+    },
+    "labels": {
+     "type": "object",
+     "properties": {
+      "font": {
+       "type": "string"
+      },
+      "colour": {
+       "type": "array",
+       "items": {
+        "type": "number"
+       }
+      },
+      "outline": {
+       "type": "array",
+       "items": {
+        "type": "number"
+       }
+      },
+      "thickness_outline": {
+       "type": "number"
+      },
+      "detente": {
+       "type": "number"
+      },
+      "uppercase": {
+       "type": "boolean"
+      },
+      "share_lengths": {
+       "type": "number"
+      },
+      "share_thickness": {
+       "type": "number"
+      },
+      "max_acceleration": {
+       "type": "number"
+      },
+      "min_size": {
+       "type": "number"
+      },
+      "second_chunks": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "night": {
+   "type": "object",
+   "properties": {
+    "number": {
+     "type": "number"
+    },
+    "surface": {
+     "type": "object",
+     "properties": {
+      "st_relief": {
+       "type": "number"
+      },
+      "st_halo": {
+       "type": "number"
+      }
+     }
+    },
+    "map": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     },
+     "x-examples": [
+      "st_ocean_deep",
+      "st_ocean_shelf",
+      "st_ocean_coast",
+      "st_land",
+      "st_ice"
+     ]
+    },
+    "labels": {
+     "type": "object",
+     "properties": {
+      "font": {
+       "type": "string"
+      },
+      "colour": {
+       "type": "array",
+       "items": {
+        "type": "number"
+       }
+      },
+      "outline": {
+       "type": "array",
+       "items": {
+        "type": "number"
+       }
+      },
+      "thickness_outline": {
+       "type": "number"
+      },
+      "detente": {
+       "type": "number"
+      },
+      "uppercase": {
+       "type": "boolean"
+      },
+      "share_lengths": {
+       "type": "number"
+      },
+      "share_thickness": {
+       "type": "number"
+      },
+      "max_acceleration": {
+       "type": "number"
+      },
+      "min_size": {
+       "type": "number"
+      },
+      "second_chunks": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "terminal": {
+   "type": "object",
+   "properties": {
+    "number": {
+     "type": "number"
+    },
+    "surface": {
+     "type": "object",
+     "properties": {
+      "st_relief": {
+       "type": "number"
+      },
+      "st_halo": {
+       "type": "number"
+      }
+     }
+    },
+    "map": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     },
+     "x-examples": [
+      "st_ocean_deep",
+      "st_ocean_shelf",
+      "st_ocean_coast",
+      "st_land",
+      "st_ice"
+     ]
+    },
+    "retro": {
+     "type": "object",
+     "properties": {
+      "st_tint": {
+       "type": "array",
+       "items": {
+        "type": "number"
+       }
+      },
+      "st_lift": {
+       "type": "array",
+       "items": {
+        "type": "number"
+       }
+      },
+      "st_scan": {
+       "type": "number"
+      },
+      "st_vignette": {
+       "type": "number"
+      },
+      "st_sat": {
+       "type": "number"
+      }
+     }
+    },
+    "labels": {
+     "type": "object",
+     "properties": {
+      "font": {
+       "type": "string"
+      },
+      "colour": {
+       "type": "array",
+       "items": {
+        "type": "number"
+       }
+      },
+      "outline": {
+       "type": "array",
+       "items": {
+        "type": "number"
+       }
+      },
+      "thickness_outline": {
+       "type": "number"
+      },
+      "detente": {
+       "type": "number"
+      },
+      "uppercase": {
+       "type": "boolean"
+      },
+      "share_lengths": {
+       "type": "number"
+      },
+      "share_thickness": {
+       "type": "number"
+      },
+      "max_acceleration": {
+       "type": "number"
+      },
+      "min_size": {
+       "type": "number"
+      },
+      "second_chunks": {
+       "type": "number"
+      },
+      "retro_shift": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "atlas": {
+   "type": "object",
+   "properties": {
+    "number": {
+     "type": "number"
+    },
+    "surface": {
+     "type": "object",
+     "properties": {
+      "st_relief": {
+       "type": "number"
+      },
+      "st_halo": {
+       "type": "number"
+      }
+     }
+    },
+    "map": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     },
+     "x-examples": [
+      "st_ocean_deep",
+      "st_ocean_shelf",
+      "st_ocean_coast",
+      "st_land",
+      "st_ice"
+     ]
+    },
+    "labels": {
+     "type": "object",
+     "properties": {
+      "font": {
+       "type": "string"
+      },
+      "colour": {
+       "type": "array",
+       "items": {
+        "type": "number"
+       }
+      },
+      "outline": {
+       "type": "array",
+       "items": {
+        "type": "number"
+       }
+      },
+      "thickness_outline": {
+       "type": "number"
+      },
+      "detente": {
+       "type": "number"
+      },
+      "uppercase": {
+       "type": "boolean"
+      },
+      "share_lengths": {
+       "type": "number"
+      },
+      "share_thickness": {
+       "type": "number"
+      },
+      "max_acceleration": {
+       "type": "number"
+      },
+      "min_size": {
+       "type": "number"
+      },
+      "second_chunks": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  }
+ }
+}

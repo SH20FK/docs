@@ -1,0 +1,11 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/ui_theme.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/ui_theme.json → data/ui_theme.patch.json",
+ "type": "object",
+ "properties": {
+  "_description": {
+   "type": "string"
+  }
+ }
+}

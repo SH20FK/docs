@@ -1,0 +1,36 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/roadmap.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/roadmap.json → data/roadmap.patch.json",
+ "type": "object",
+ "properties": {
+  "_manner_this_works": {
+   "type": "string"
+  },
+  "phases": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "key": {
+      "type": "string"
+     },
+     "conditions": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "what": {
+         "type": "string"
+        },
+        "≥": {
+         "type": "number"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

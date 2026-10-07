@@ -1,0 +1,133 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/bodies_lang.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/bodies_lang.json → data/bodies_lang.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "languages": {
+   "type": "object",
+   "properties": {
+    "ru": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "Солнце",
+      "Меркурий",
+      "Венера",
+      "Земля",
+      "Луна"
+     ]
+    },
+    "en": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "Солнце",
+      "Меркурий",
+      "Венера",
+      "Земля",
+      "Луна"
+     ]
+    },
+    "de": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "Солнце",
+      "Меркурий",
+      "Венера",
+      "Земля",
+      "Луна"
+     ]
+    },
+    "fr": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "Солнце",
+      "Меркурий",
+      "Венера",
+      "Земля",
+      "Луна"
+     ]
+    },
+    "es": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "Солнце",
+      "Меркурий",
+      "Венера",
+      "Земля",
+      "Луна"
+     ]
+    },
+    "it": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "Солнце",
+      "Меркурий",
+      "Венера",
+      "Земля",
+      "Луна"
+     ]
+    },
+    "ja": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "Солнце",
+      "Меркурий",
+      "Венера",
+      "Земля",
+      "Луна"
+     ]
+    },
+    "zh": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "Солнце",
+      "Меркурий",
+      "Венера",
+      "Земля",
+      "Луна"
+     ]
+    },
+    "ko": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "Солнце",
+      "Меркурий",
+      "Венера",
+      "Земля",
+      "Луна"
+     ]
+    }
+   }
+  }
+ }
+}

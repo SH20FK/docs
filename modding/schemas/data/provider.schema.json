@@ -1,0 +1,138 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/provider.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/provider.json → data/provider.patch.json",
+ "type": "object",
+ "properties": {
+  "_comment": {
+   "type": "string"
+  },
+  "base_url": {
+   "type": "string"
+  },
+  "api_key": {
+   "type": "string"
+  },
+  "model": {
+   "type": "string"
+  },
+  "_examples": {
+   "type": "object",
+   "properties": {
+    "locally_lmstudio": {
+     "type": "object",
+     "properties": {
+      "base_url": {
+       "type": "string"
+      },
+      "api_key": {
+       "type": "string"
+      },
+      "model": {
+       "type": "string"
+      },
+      "_": {
+       "type": "string"
+      }
+     }
+    },
+    "if_prose_dry": {
+     "type": "object",
+     "properties": {
+      "base_url": {
+       "type": "string"
+      },
+      "api_key": {
+       "type": "string"
+      },
+      "model": {
+       "type": "string"
+      },
+      "_": {
+       "type": "string"
+      }
+     }
+    },
+    "russians_finetuning": {
+     "type": "object",
+     "properties": {
+      "base_url": {
+       "type": "string"
+      },
+      "api_key": {
+       "type": "string"
+      },
+      "model": {
+       "type": "string"
+      },
+      "_": {
+       "type": "string"
+      }
+     }
+    },
+    "easier_i_faster": {
+     "type": "object",
+     "properties": {
+      "base_url": {
+       "type": "string"
+      },
+      "api_key": {
+       "type": "string"
+      },
+      "model": {
+       "type": "string"
+      },
+      "_": {
+       "type": "string"
+      }
+     }
+    },
+    "locally_ollama": {
+     "type": "object",
+     "properties": {
+      "base_url": {
+       "type": "string"
+      },
+      "api_key": {
+       "type": "string"
+      },
+      "model": {
+       "type": "string"
+      },
+      "_": {
+       "type": "string"
+      }
+     }
+    },
+    "cloud_anthropic": {
+     "type": "object",
+     "properties": {
+      "base_url": {
+       "type": "string"
+      },
+      "api_key": {
+       "type": "string"
+      },
+      "model": {
+       "type": "string"
+      }
+     }
+    },
+    "cloud_openai_compatible": {
+     "type": "object",
+     "properties": {
+      "base_url": {
+       "type": "string"
+      },
+      "api_key": {
+       "type": "string"
+      },
+      "model": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/events_bodies.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/events_bodies.json → data/events_bodies.patch.json",
+ "type": "object",
+ "properties": {
+  "rulebook": {
+   "type": "string"
+  },
+  "bodies": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "dossier": {
+      "type": "object",
+      "properties": {
+       "v_surplus": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "lacking": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "than_useful": {
+        "type": "string"
+       },
+       "than_awful": {
+        "type": "string"
+       },
+       "chunk_rhythm": {
+        "type": "string"
+       }
+      }
+     },
+     "events": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "when": {
+         "type": "string"
+        },
+        "tone": {
+         "type": "string"
+        },
+        "weight": {
+         "type": "number"
+        },
+        "prompt": {
+         "type": "string"
+        },
+        "reward": {
+         "type": "object",
+         "properties": {
+          "kind": {
+           "type": "string"
+          },
+          "how_many": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   },
+   "x-examples": [
+    "Солнце",
+    "Меркурий",
+    "Венера",
+    "Земля",
+    "Луна"
+   ]
+  }
+ }
+}

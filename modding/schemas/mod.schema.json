@@ -1,0 +1,39 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "pax-universe/mod.schema.json",
+	"title": "Pax Universe mod manifest (mod.json)",
+	"type": "object",
+	"required": ["id", "name", "version"],
+	"properties": {
+		"$schema": {"type": "string"},
+		"id": {
+			"type": "string",
+			"pattern": "^[a-z0-9][a-z0-9_.-]{1,63}$",
+			"description": "Unique id: lowercase latin letters, digits, _ - . Files of the mod are available at res://mods/<id>/. Never change it after release — saves and other mods refer to it."
+		},
+		"name": {"$ref": "#/definitions/localized", "description": "Shown in the launcher. A string or {\"en\": …, \"ru\": …}."},
+		"description": {"$ref": "#/definitions/localized", "description": "One or two sentences for the launcher card."},
+		"version": {"type": "string", "pattern": "^\\d+(\\.\\d+){0,3}$", "description": "Your mod version, e.g. 1.2.0. Other mods can require it: \"depends\": [\"your_id>=1.2\"]."},
+		"api": {"type": "integer", "minimum": 1, "description": "Pax API version the mod is written for. Current: 1."},
+		"game_version": {"type": "string", "description": "Minimum game version, e.g. \">=0.9.0\"."},
+		"authors": {"type": "array", "items": {"type": "string"}},
+		"tags": {"type": "array", "items": {"type": "string"}, "description": "Shown as chips; used for search and the placeholder icon (planet, star, ark, character, shader, music, language, ui)."},
+		"depends": {"type": "array", "items": {"type": "string"}, "description": "Mods that must be enabled: \"other_id\" or \"other_id>=1.2\". They load before this mod."},
+		"components": {"type": "array", "items": {"enum": ["voxel"]}, "description": "Optional engine components the mod needs. voxel: Voxel Tools (the launcher installs it, the game loads it before the mod code)."},
+		"client_only": {"type": "boolean", "description": "true: looks-only mod (textures, music, fonts). Not compared in multiplayer; every other mod must match the host."},
+		"load_after": {"type": "array", "items": {"type": "string"}, "description": "Load after these mods if they are present (optional integration)."},
+		"load_before": {"type": "array", "items": {"type": "string"}, "description": "Load before these mods if they are present."},
+		"entry": {"type": "string", "description": "GDScript file that starts with `extends PaxMod`, relative to the mod folder. Omit for data-only mods."},
+		"homepage": {"type": "string", "format": "uri"},
+		"license": {"type": "string"}
+	},
+	"additionalProperties": true,
+	"definitions": {
+		"localized": {
+			"oneOf": [
+				{"type": "string"},
+				{"type": "object", "additionalProperties": {"type": "string"}, "propertyNames": {"pattern": "^[a-z]{2}$"}}
+			]
+		}
+	}
+}

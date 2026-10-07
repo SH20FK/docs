@@ -1,0 +1,49 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/model_library.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/model_library.json → data/model_library.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "stub": {
+   "type": "string"
+  },
+  "models": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "file": {
+      "type": "string"
+     },
+     "role": {
+      "type": "string"
+     },
+     "classes": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "words": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "size": {
+      "type": "number"
+     },
+     "en": {
+      "type": "string"
+     },
+     "description": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ }
+}

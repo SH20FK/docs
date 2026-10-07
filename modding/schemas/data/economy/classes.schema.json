@@ -1,0 +1,524 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/economy/classes.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/economy/classes.json → data/economy/classes.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "classes": {
+   "type": "object",
+   "properties": {
+    "nourishment": {
+     "type": "object",
+     "properties": {
+      "price": {
+       "type": "number"
+      },
+      "people_replaces": {
+       "type": "string"
+      },
+      "production": {
+       "type": "object",
+       "properties": {
+        "kind": {
+         "type": "string"
+        },
+        "entry": {
+         "type": "object",
+         "properties": {
+          "energy": {
+           "type": "number"
+          },
+          "fuel": {
+           "type": "number"
+          }
+         }
+        },
+        "output": {
+         "type": "number"
+        },
+        "workers": {
+         "type": "number"
+        },
+        "costs": {
+         "type": "object",
+         "properties": {
+          "materials": {
+           "type": "number"
+          },
+          "money": {
+           "type": "number"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "water": {
+     "type": "object",
+     "properties": {
+      "price": {
+       "type": "number"
+      },
+      "production": {
+       "type": "object",
+       "properties": {
+        "kind": {
+         "type": "string"
+        },
+        "entry": {
+         "type": "object",
+         "properties": {
+          "energy": {
+           "type": "number"
+          }
+         }
+        },
+        "output": {
+         "type": "number"
+        },
+        "workers": {
+         "type": "number"
+        },
+        "costs": {
+         "type": "object",
+         "properties": {
+          "materials": {
+           "type": "number"
+          },
+          "money": {
+           "type": "number"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "energy": {
+     "type": "object",
+     "properties": {
+      "price": {
+       "type": "number"
+      },
+      "flow": {
+       "type": "boolean"
+      }
+     }
+    },
+    "fuel_used": {
+     "type": "object",
+     "properties": {
+      "price": {
+       "type": "number"
+      },
+      "extraction": {
+       "type": "object",
+       "properties": {
+        "kind": {
+         "type": "string"
+        },
+        "deposits": {
+         "type": "boolean"
+        },
+        "entry": {
+         "type": "object",
+         "properties": {
+          "energy": {
+           "type": "number"
+          }
+         }
+        },
+        "output": {
+         "type": "number"
+        },
+        "workers": {
+         "type": "number"
+        },
+        "costs": {
+         "type": "object",
+         "properties": {
+          "materials": {
+           "type": "number"
+          },
+          "money": {
+           "type": "number"
+          }
+         }
+        }
+       }
+      },
+      "power_station": {
+       "type": "object",
+       "properties": {
+        "entry": {
+         "type": "object",
+         "properties": {
+          "{X}": {
+           "type": "number"
+          }
+         }
+        },
+        "output": {
+         "type": "number"
+        },
+        "workers": {
+         "type": "number"
+        },
+        "costs": {
+         "type": "object",
+         "properties": {
+          "materials": {
+           "type": "number"
+          },
+          "rare": {
+           "type": "number"
+          },
+          "money": {
+           "type": "number"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "raw": {
+     "type": "object",
+     "properties": {
+      "price": {
+       "type": "number"
+      },
+      "extraction": {
+       "type": "object",
+       "properties": {
+        "kind": {
+         "type": "string"
+        },
+        "deposits": {
+         "type": "boolean"
+        },
+        "entry": {
+         "type": "object",
+         "properties": {
+          "energy": {
+           "type": "number"
+          },
+          "fuel": {
+           "type": "number"
+          }
+         }
+        },
+        "output": {
+         "type": "number"
+        },
+        "workers": {
+         "type": "number"
+        },
+        "costs": {
+         "type": "object",
+         "properties": {
+          "materials": {
+           "type": "number"
+          },
+          "money": {
+           "type": "number"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "raw_materials": {
+     "type": "object",
+     "properties": {
+      "price": {
+       "type": "number"
+      },
+      "production": {
+       "type": "object",
+       "properties": {
+        "kind": {
+         "type": "string"
+        },
+        "entry": {
+         "type": "object",
+         "properties": {
+          "materials": {
+           "type": "number"
+          },
+          "energy": {
+           "type": "number"
+          }
+         }
+        },
+        "output": {
+         "type": "number"
+        },
+        "workers": {
+         "type": "number"
+        },
+        "costs": {
+         "type": "object",
+         "properties": {
+          "materials": {
+           "type": "number"
+          },
+          "money": {
+           "type": "number"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "goods": {
+     "type": "object",
+     "properties": {
+      "price": {
+       "type": "number"
+      },
+      "people_luxury": {
+       "type": "number"
+      },
+      "production": {
+       "type": "object",
+       "properties": {
+        "kind": {
+         "type": "string"
+        },
+        "entry": {
+         "type": "object",
+         "properties": {
+          "materials": {
+           "type": "number"
+          },
+          "energy": {
+           "type": "number"
+          },
+          "goods": {
+           "type": "number"
+          }
+         }
+        },
+        "output": {
+         "type": "number"
+        },
+        "workers": {
+         "type": "number"
+        },
+        "costs": {
+         "type": "object",
+         "properties": {
+          "materials": {
+           "type": "number"
+          },
+          "money": {
+           "type": "number"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "medicine": {
+     "type": "object",
+     "properties": {
+      "price": {
+       "type": "number"
+      },
+      "people_replaces": {
+       "type": "string"
+      },
+      "production": {
+       "type": "object",
+       "properties": {
+        "kind": {
+         "type": "string"
+        },
+        "entry": {
+         "type": "object",
+         "properties": {
+          "goods": {
+           "type": "number"
+          },
+          "rare": {
+           "type": "number"
+          },
+          "energy": {
+           "type": "number"
+          }
+         }
+        },
+        "output": {
+         "type": "number"
+        },
+        "workers": {
+         "type": "number"
+        },
+        "costs": {
+         "type": "object",
+         "properties": {
+          "materials": {
+           "type": "number"
+          },
+          "money": {
+           "type": "number"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "rare": {
+     "type": "object",
+     "properties": {
+      "price": {
+       "type": "number"
+      },
+      "extraction": {
+       "type": "object",
+       "properties": {
+        "kind": {
+         "type": "string"
+        },
+        "deposits": {
+         "type": "boolean"
+        },
+        "entry": {
+         "type": "object",
+         "properties": {
+          "energy": {
+           "type": "number"
+          },
+          "fuel": {
+           "type": "number"
+          }
+         }
+        },
+        "output": {
+         "type": "number"
+        },
+        "workers": {
+         "type": "number"
+        },
+        "costs": {
+         "type": "object",
+         "properties": {
+          "materials": {
+           "type": "number"
+          },
+          "money": {
+           "type": "number"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "military": {
+     "type": "object",
+     "properties": {
+      "price": {
+       "type": "number"
+      },
+      "army": {
+       "type": "boolean"
+      },
+      "production": {
+       "type": "object",
+       "properties": {
+        "kind": {
+         "type": "string"
+        },
+        "entry": {
+         "type": "object",
+         "properties": {
+          "materials": {
+           "type": "number"
+          },
+          "energy": {
+           "type": "number"
+          },
+          "goods": {
+           "type": "number"
+          }
+         }
+        },
+        "output": {
+         "type": "number"
+        },
+        "workers": {
+         "type": "number"
+        },
+        "costs": {
+         "type": "object",
+         "properties": {
+          "materials": {
+           "type": "number"
+          },
+          "money": {
+           "type": "number"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "special": {
+     "type": "object",
+     "properties": {
+      "price": {
+       "type": "number"
+      },
+      "production": {
+       "type": "object",
+       "properties": {
+        "kind": {
+         "type": "string"
+        },
+        "entry": {
+         "type": "object",
+         "properties": {
+          "materials": {
+           "type": "number"
+          },
+          "energy": {
+           "type": "number"
+          }
+         }
+        },
+        "output": {
+         "type": "number"
+        },
+        "workers": {
+         "type": "number"
+        },
+        "costs": {
+         "type": "object",
+         "properties": {
+          "materials": {
+           "type": "number"
+          },
+          "money": {
+           "type": "number"
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

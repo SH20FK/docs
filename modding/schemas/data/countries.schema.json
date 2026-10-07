@@ -1,0 +1,60 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/countries.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/countries.json → data/countries.patch.json",
+ "type": "object",
+ "properties": {
+  "_manner_this_works": {
+   "type": "string"
+  },
+  "width": {
+   "type": "number"
+  },
+  "height": {
+   "type": "number"
+  },
+  "countries": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "iso": {
+      "type": "string"
+     },
+     "names": {
+      "type": "object",
+      "properties": {
+       "ru": {
+        "type": "string"
+       },
+       "en": {
+        "type": "string"
+       },
+       "de": {
+        "type": "string"
+       },
+       "es": {
+        "type": "string"
+       },
+       "fr": {
+        "type": "string"
+       },
+       "it": {
+        "type": "string"
+       },
+       "ja": {
+        "type": "string"
+       },
+       "ko": {
+        "type": "string"
+       },
+       "zh": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

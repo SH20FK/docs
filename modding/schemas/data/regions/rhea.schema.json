@@ -1,0 +1,113 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/regions/rhea.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/regions/rhea.json → data/regions/rhea.patch.json",
+ "type": "object",
+ "properties": {
+  "_manner_this_works": {
+   "type": "string"
+  },
+  "body": {
+   "type": "string"
+  },
+  "width": {
+   "type": "number"
+  },
+  "height": {
+   "type": "number"
+  },
+  "queue_width": {
+   "type": "number"
+  },
+  "queue_height": {
+   "type": "number"
+  },
+  "agreement_longitude": {
+   "type": "object",
+   "properties": {
+    "east": {
+     "type": "boolean"
+    },
+    "zero_v_center": {
+     "type": "boolean"
+    }
+   }
+  },
+  "regions": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "number"
+     },
+     "names": {
+      "type": "object",
+      "properties": {
+       "ru": {
+        "type": "string"
+       },
+       "en": {
+        "type": "string"
+       },
+       "de": {
+        "type": "string"
+       },
+       "es": {
+        "type": "string"
+       },
+       "fr": {
+        "type": "string"
+       },
+       "it": {
+        "type": "string"
+       },
+       "ja": {
+        "type": "string"
+       },
+       "ko": {
+        "type": "string"
+       },
+       "zh": {
+        "type": "string"
+       }
+      }
+     },
+     "type_iau": {
+      "type": "string"
+     },
+     "area": {
+      "type": "number"
+     },
+     "ш": {
+      "type": "number"
+     },
+     "д": {
+      "type": "number"
+     },
+     "caption": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     },
+     "coast": {
+      "type": "boolean"
+     },
+     "on_water": {
+      "type": "boolean"
+     },
+     "future_sea": {
+      "type": "boolean"
+     },
+     "neighbours": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,157 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/supply_methods.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/supply_methods.json → data/supply_methods.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "classes": {
+   "type": "object",
+   "properties": {
+    "rocket": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "price": {
+       "type": "number"
+      },
+      "day_list": {
+       "type": "number"
+      },
+      "loss": {
+       "type": "number"
+      },
+      "science": {
+       "type": "number"
+      },
+      "volume": {
+       "type": "number"
+      }
+     }
+    },
+    "sail": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "price": {
+       "type": "number"
+      },
+      "day_list": {
+       "type": "number"
+      },
+      "loss": {
+       "type": "number"
+      },
+      "science": {
+       "type": "number"
+      },
+      "volume": {
+       "type": "number"
+      }
+     }
+    },
+    "orbital_stock": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "price": {
+       "type": "number"
+      },
+      "day_list": {
+       "type": "number"
+      },
+      "loss": {
+       "type": "number"
+      },
+      "science": {
+       "type": "number"
+      },
+      "volume": {
+       "type": "number"
+      }
+     }
+    },
+    "mass_driver": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "price": {
+       "type": "number"
+      },
+      "day_list": {
+       "type": "number"
+      },
+      "loss": {
+       "type": "number"
+      },
+      "science": {
+       "type": "number"
+      },
+      "volume": {
+       "type": "number"
+      }
+     }
+    },
+    "lift": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "price": {
+       "type": "number"
+      },
+      "day_list": {
+       "type": "number"
+      },
+      "loss": {
+       "type": "number"
+      },
+      "science": {
+       "type": "number"
+      },
+      "volume": {
+       "type": "number"
+      }
+     }
+    },
+    "exotics": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "price": {
+       "type": "number"
+      },
+      "day_list": {
+       "type": "number"
+      },
+      "loss": {
+       "type": "number"
+      },
+      "science": {
+       "type": "number"
+      },
+      "instant": {
+       "type": "boolean"
+      },
+      "volume": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  }
+ }
+}

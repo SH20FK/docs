@@ -1,0 +1,3096 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/preset_lang.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/preset_lang.json → data/preset_lang.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "languages": {
+   "type": "object",
+   "properties": {
+    "en": {
+     "type": "object",
+     "properties": {
+      "factions": {
+       "type": "object",
+       "properties": {
+        "Площадь": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Верхние": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Полк": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Три Колодца": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Бункер 9": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Караван": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Ржавые": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Сборщики": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Сёстры": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Наследники": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Дети пепла": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Прометей": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      },
+      "leaders": {
+       "type": "object",
+       "additionalProperties": {
+        "type": "object",
+        "properties": {
+         "name": {
+          "type": "string"
+         },
+         "origin": {
+          "type": "string"
+         },
+         "character": {
+          "type": "string"
+         },
+         "first_word": {
+          "type": "string"
+         }
+        }
+       },
+       "x-examples": [
+        "Марта Ковач",
+        "Ильяс Дёмин",
+        "Эйрик Хальдорсон",
+        "Сона Мкртчян",
+        "Тадеуш Мор"
+       ]
+      }
+     }
+    },
+    "zh": {
+     "type": "object",
+     "properties": {
+      "factions": {
+       "type": "object",
+       "properties": {
+        "Площадь": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Верхние": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Полк": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Три Колодца": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Бункер 9": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Караван": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Ржавые": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Сборщики": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Сёстры": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Наследники": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Дети пепла": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Прометей": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      },
+      "leaders": {
+       "type": "object",
+       "additionalProperties": {
+        "type": "object",
+        "properties": {
+         "name": {
+          "type": "string"
+         },
+         "origin": {
+          "type": "string"
+         },
+         "character": {
+          "type": "string"
+         },
+         "first_word": {
+          "type": "string"
+         }
+        }
+       },
+       "x-examples": [
+        "Марта Ковач",
+        "Ильяс Дёмин",
+        "Эйрик Хальдорсон",
+        "Сона Мкртчян",
+        "Тадеуш Мор"
+       ]
+      }
+     }
+    },
+    "de": {
+     "type": "object",
+     "properties": {
+      "factions": {
+       "type": "object",
+       "properties": {
+        "Площадь": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Верхние": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Полк": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Три Колодца": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Бункер 9": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Караван": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Ржавые": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Сборщики": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Сёстры": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Наследники": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Дети пепла": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Прометей": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      },
+      "leaders": {
+       "type": "object",
+       "additionalProperties": {
+        "type": "object",
+        "properties": {
+         "name": {
+          "type": "string"
+         },
+         "origin": {
+          "type": "string"
+         },
+         "character": {
+          "type": "string"
+         },
+         "first_word": {
+          "type": "string"
+         }
+        }
+       },
+       "x-examples": [
+        "Марта Ковач",
+        "Ильяс Дёмин",
+        "Эйрик Хальдорсон",
+        "Сона Мкртчян",
+        "Тадеуш Мор"
+       ]
+      }
+     }
+    },
+    "fr": {
+     "type": "object",
+     "properties": {
+      "factions": {
+       "type": "object",
+       "properties": {
+        "Площадь": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Верхние": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Полк": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Три Колодца": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Бункер 9": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Караван": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Ржавые": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Сборщики": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Сёстры": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Наследники": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Дети пепла": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Прометей": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      },
+      "leaders": {
+       "type": "object",
+       "additionalProperties": {
+        "type": "object",
+        "properties": {
+         "name": {
+          "type": "string"
+         },
+         "origin": {
+          "type": "string"
+         },
+         "character": {
+          "type": "string"
+         },
+         "first_word": {
+          "type": "string"
+         }
+        }
+       },
+       "x-examples": [
+        "Марта Ковач",
+        "Ильяс Дёмин",
+        "Эйрик Хальдорсон",
+        "Сона Мкртчян",
+        "Тадеуш Мор"
+       ]
+      }
+     }
+    },
+    "es": {
+     "type": "object",
+     "properties": {
+      "factions": {
+       "type": "object",
+       "properties": {
+        "Площадь": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Верхние": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Полк": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Три Колодца": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Бункер 9": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Караван": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Ржавые": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Сборщики": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Сёстры": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Наследники": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Дети пепла": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Прометей": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      },
+      "leaders": {
+       "type": "object",
+       "additionalProperties": {
+        "type": "object",
+        "properties": {
+         "name": {
+          "type": "string"
+         },
+         "origin": {
+          "type": "string"
+         },
+         "character": {
+          "type": "string"
+         },
+         "first_word": {
+          "type": "string"
+         }
+        }
+       },
+       "x-examples": [
+        "Марта Ковач",
+        "Ильяс Дёмин",
+        "Эйрик Хальдорсон",
+        "Сона Мкртчян",
+        "Тадеуш Мор"
+       ]
+      }
+     }
+    },
+    "it": {
+     "type": "object",
+     "properties": {
+      "factions": {
+       "type": "object",
+       "properties": {
+        "Площадь": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Верхние": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Полк": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Три Колодца": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Бункер 9": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Караван": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Ржавые": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Сборщики": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Сёстры": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Наследники": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Дети пепла": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Прометей": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      },
+      "leaders": {
+       "type": "object",
+       "additionalProperties": {
+        "type": "object",
+        "properties": {
+         "name": {
+          "type": "string"
+         },
+         "origin": {
+          "type": "string"
+         },
+         "character": {
+          "type": "string"
+         },
+         "first_word": {
+          "type": "string"
+         }
+        }
+       },
+       "x-examples": [
+        "Марта Ковач",
+        "Ильяс Дёмин",
+        "Эйрик Хальдорсон",
+        "Сона Мкртчян",
+        "Тадеуш Мор"
+       ]
+      }
+     }
+    },
+    "ja": {
+     "type": "object",
+     "properties": {
+      "factions": {
+       "type": "object",
+       "properties": {
+        "Площадь": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Верхние": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Полк": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Три Колодца": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Бункер 9": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Караван": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Ржавые": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Сборщики": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Сёстры": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Наследники": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Дети пепла": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Прометей": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      },
+      "leaders": {
+       "type": "object",
+       "additionalProperties": {
+        "type": "object",
+        "properties": {
+         "name": {
+          "type": "string"
+         },
+         "origin": {
+          "type": "string"
+         },
+         "character": {
+          "type": "string"
+         },
+         "first_word": {
+          "type": "string"
+         }
+        }
+       },
+       "x-examples": [
+        "Марта Ковач",
+        "Ильяс Дёмин",
+        "Эйрик Хальдорсон",
+        "Сона Мкртчян",
+        "Тадеуш Мор"
+       ]
+      }
+     }
+    },
+    "ko": {
+     "type": "object",
+     "properties": {
+      "factions": {
+       "type": "object",
+       "properties": {
+        "Площадь": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Верхние": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Полк": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Три Колодца": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Бункер 9": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Караван": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Ржавые": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Сборщики": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Сёстры": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Наследники": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Дети пепла": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        },
+        "Прометей": {
+         "type": "object",
+         "properties": {
+          "name": {
+           "type": "string"
+          },
+          "type": {
+           "type": "string"
+          },
+          "where_live": {
+           "type": "string"
+          },
+          "than_busy": {
+           "type": "string"
+          },
+          "goal": {
+           "type": "string"
+          },
+          "side": {
+           "type": "string"
+          },
+          "briefly": {
+           "type": "string"
+          },
+          "origin_ai": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      },
+      "leaders": {
+       "type": "object",
+       "additionalProperties": {
+        "type": "object",
+        "properties": {
+         "name": {
+          "type": "string"
+         },
+         "origin": {
+          "type": "string"
+         },
+         "character": {
+          "type": "string"
+         },
+         "first_word": {
+          "type": "string"
+         }
+        }
+       },
+       "x-examples": [
+        "Марта Ковач",
+        "Ильяс Дёмин",
+        "Эйрик Хальдорсон",
+        "Сона Мкртчян",
+        "Тадеуш Мор"
+       ]
+      }
+     }
+    }
+   }
+  }
+ }
+}

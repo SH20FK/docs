@@ -1,0 +1,24 @@
+{
+	"id": "example_theia",
+	"name": {
+		"en": "Example: Theia, the lost planet",
+		"ru": "Пример: Тея, потерянная планета"
+	},
+	"version": "1.0.0",
+	"api": 1,
+	"game_version": ">=0.9.0",
+	"authors": [
+		"Gugergaming"
+	],
+	"description": {
+		"en": "Adds the planet Theia between Mars and the asteroid belt with its own textures and relief, a window in the bottom bar, a chronicle entry every 5 time skips and state saved in the save file. Read the files — every one is commented.",
+		"ru": "Добавляет планету Тея между Марсом и поясом астероидов: свои текстуры и рельеф, окно в нижней панели, запись в хронику каждые 5 перемоток и состояние в сейве. Каждый файл мода с комментариями — читайте как учебник."
+	},
+	"tags": [
+		"example",
+		"planet",
+		"ui",
+		"code"
+	],
+	"entry": "main.gd"
+}

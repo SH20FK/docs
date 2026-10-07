@@ -1,0 +1,126 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/galaxy.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/galaxy.json → data/galaxy.patch.json",
+ "type": "object",
+ "properties": {
+  "_description": {
+   "type": "string"
+  },
+  "seed": {
+   "type": "number"
+  },
+  "stars_of": {
+   "type": "number"
+  },
+  "arms": {
+   "type": "number"
+  },
+  "radius": {
+   "type": "number"
+  },
+  "sun_from_center": {
+   "type": "number"
+  },
+  "twist": {
+   "type": "number"
+  },
+  "compression_close": {
+   "type": "number"
+  },
+  "radius_territories": {
+   "type": "number"
+  },
+  "classes": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "class": {
+      "type": "string"
+     },
+     "share": {
+      "type": "number"
+     },
+     "colour": {
+      "type": "string"
+     },
+     "size": {
+      "type": "number"
+     }
+    }
+   }
+  },
+  "famous_ones": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "object",
+      "properties": {
+       "ru": {
+        "type": "string"
+       },
+       "en": {
+        "type": "string"
+       }
+      }
+     },
+     "l": {
+      "type": "number"
+     },
+     "b": {
+      "type": "number"
+     },
+     "sv_years": {
+      "type": "number"
+     },
+     "class": {
+      "type": "string"
+     },
+     "system": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "local_group": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "object",
+      "properties": {
+       "ru": {
+        "type": "string"
+       },
+       "en": {
+        "type": "string"
+       }
+      }
+     },
+     "sv_years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     },
+     "radius": {
+      "type": "number"
+     },
+     "kind": {
+      "type": "string"
+     },
+     "arms": {
+      "type": "number"
+     },
+     "ours": {
+      "type": "boolean"
+     }
+    }
+   }
+  }
+ }
+}

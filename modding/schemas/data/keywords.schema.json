@@ -1,0 +1,632 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/keywords.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/keywords.json → data/keywords.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "ru": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "еда": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "вода": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "стройматериалы": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "горючее": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "деньги": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:наука": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:жильё": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:работа": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:сеть": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   },
+   "x-examples": [
+    "продукт",
+    "ветки",
+    "планета",
+    "станции",
+    "шахта_новая"
+   ]
+  },
+  "en": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "еда": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "вода": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "стройматериалы": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "горючее": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "деньги": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:наука": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:жильё": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:работа": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:сеть": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   },
+   "x-examples": [
+    "продукт",
+    "ветки",
+    "планета",
+    "станции",
+    "шахта_новая"
+   ]
+  },
+  "de": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "еда": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "вода": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "стройматериалы": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "горючее": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "деньги": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:наука": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:жильё": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:работа": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:сеть": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   },
+   "x-examples": [
+    "продукт",
+    "ветки",
+    "планета",
+    "станции",
+    "шахта_новая"
+   ]
+  },
+  "es": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "еда": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "вода": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "стройматериалы": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "горючее": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "деньги": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:наука": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:жильё": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:работа": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:сеть": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   },
+   "x-examples": [
+    "продукт",
+    "ветки",
+    "планета",
+    "станции",
+    "шахта_новая"
+   ]
+  },
+  "fr": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "еда": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "вода": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "стройматериалы": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "горючее": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "деньги": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:наука": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:жильё": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:работа": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:сеть": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   },
+   "x-examples": [
+    "продукт",
+    "ветки",
+    "планета",
+    "станции",
+    "шахта_новая"
+   ]
+  },
+  "it": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "еда": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "вода": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "стройматериалы": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "горючее": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "деньги": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:наука": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:жильё": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:работа": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:сеть": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   },
+   "x-examples": [
+    "продукт",
+    "ветки",
+    "планета",
+    "станции",
+    "шахта_новая"
+   ]
+  },
+  "ja": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "еда": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "вода": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "стройматериалы": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "горючее": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "деньги": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:наука": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:жильё": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:работа": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:сеть": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   },
+   "x-examples": [
+    "продукт",
+    "ветки",
+    "планета",
+    "станции",
+    "шахта_новая"
+   ]
+  },
+  "ko": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "еда": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "вода": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "стройматериалы": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "горючее": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "деньги": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:наука": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:жильё": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:работа": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:сеть": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   },
+   "x-examples": [
+    "продукт",
+    "ветки",
+    "планета",
+    "станции",
+    "шахта_новая"
+   ]
+  },
+  "zh": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "еда": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "вода": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "стройматериалы": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "горючее": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "деньги": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:наука": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:жильё": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:работа": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "ветка:сеть": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   },
+   "x-examples": [
+    "продукт",
+    "ветки",
+    "планета",
+    "станции",
+    "шахта_новая"
+   ]
+  }
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/development.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/development.json → data/development.patch.json",
+ "type": "object",
+ "properties": {
+  "_comment": {
+   "type": "string"
+  },
+  "comms": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "what": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "housing": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "what": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "infrastructure": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "what": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "jobs": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "what": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "extraction": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "what": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "science": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "what": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ }
+}

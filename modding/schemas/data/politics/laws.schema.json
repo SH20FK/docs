@@ -1,0 +1,1764 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/politics/laws.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/politics/laws.json → data/politics/laws.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "sections": {
+   "type": "object",
+   "properties": {
+    "elections": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "options": {
+       "type": "object",
+       "properties": {
+        "proportional": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "liberals": {
+             "type": "number"
+            },
+            "greens": {
+             "type": "number"
+            },
+            "minorities": {
+             "type": "number"
+            },
+            "conservatives": {
+             "type": "number"
+            }
+           }
+          },
+          "freedom_elections": {
+           "type": "number"
+          },
+          "opinion_world": {
+           "type": "number"
+          }
+         }
+        },
+        "majoritarian": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "conservatives": {
+             "type": "number"
+            },
+            "regions": {
+             "type": "number"
+            },
+            "greens": {
+             "type": "number"
+            }
+           }
+          },
+          "freedom_elections": {
+           "type": "number"
+          }
+         }
+        },
+        "mixed_f": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object"
+          },
+          "freedom_elections": {
+           "type": "number"
+          }
+         }
+        },
+        "uncontested": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "party": {
+             "type": "number"
+            },
+            "liberals": {
+             "type": "number"
+            },
+            "youth": {
+             "type": "number"
+            }
+           }
+          },
+          "freedom_elections": {
+           "type": "number"
+          },
+          "legitimacy": {
+           "type": "number"
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "corruption": {
+             "type": "number"
+            },
+            "trust": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        },
+        "without_elections": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "army": {
+             "type": "number"
+            },
+            "liberals": {
+             "type": "number"
+            },
+            "nation": {
+             "type": "number"
+            }
+           }
+          },
+          "freedom_elections": {
+           "type": "number"
+          },
+          "legitimacy": {
+           "type": "number"
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "corruption": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "word": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "options": {
+       "type": "object",
+       "properties": {
+        "free_press": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "liberals": {
+             "type": "number"
+            },
+            "intelligentsia": {
+             "type": "number"
+            },
+            "youth": {
+             "type": "number"
+            },
+            "siloviki": {
+             "type": "number"
+            }
+           }
+          },
+          "freedom_elections": {
+           "type": "number"
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "scandals": {
+           "type": "number"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "corruption": {
+             "type": "number"
+            },
+            "science": {
+             "type": "number"
+            },
+            "trust": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        },
+        "limited": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "liberals": {
+             "type": "number"
+            },
+            "siloviki": {
+             "type": "number"
+            }
+           }
+          },
+          "freedom_elections": {
+           "type": "number"
+          },
+          "scandals": {
+           "type": "number"
+          }
+         }
+        },
+        "censorship": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "liberals": {
+             "type": "number"
+            },
+            "intelligentsia": {
+             "type": "number"
+            },
+            "youth": {
+             "type": "number"
+            },
+            "siloviki": {
+             "type": "number"
+            },
+            "bureaucracy": {
+             "type": "number"
+            }
+           }
+          },
+          "freedom_elections": {
+           "type": "number"
+          },
+          "legitimacy": {
+           "type": "number"
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "scandals": {
+           "type": "number"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "corruption": {
+             "type": "number"
+            },
+            "science": {
+             "type": "number"
+            },
+            "trust": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        },
+        "propaganda": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "liberals": {
+             "type": "number"
+            },
+            "intelligentsia": {
+             "type": "number"
+            },
+            "party": {
+             "type": "number"
+            },
+            "siloviki": {
+             "type": "number"
+            }
+           }
+          },
+          "freedom_elections": {
+           "type": "number"
+          },
+          "legitimacy": {
+           "type": "number"
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "scandals": {
+           "type": "number"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "corruption": {
+             "type": "number"
+            },
+            "science": {
+             "type": "number"
+            },
+            "trust": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "army": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "options": {
+       "type": "object",
+       "properties": {
+        "contract": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "youth": {
+             "type": "number"
+            },
+            "army": {
+             "type": "number"
+            },
+            "veterans": {
+             "type": "number"
+            }
+           }
+          },
+          "army": {
+           "type": "string"
+          }
+         }
+        },
+        "mixed_f": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object"
+          },
+          "army": {
+           "type": "string"
+          }
+         }
+        },
+        "conscript": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "army": {
+             "type": "number"
+            },
+            "youth": {
+             "type": "number"
+            },
+            "conservatives": {
+             "type": "number"
+            }
+           }
+          },
+          "army": {
+           "type": "string"
+          }
+         }
+        },
+        "mobilization": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "army": {
+             "type": "number"
+            },
+            "youth": {
+             "type": "number"
+            },
+            "nation": {
+             "type": "number"
+            },
+            "labor_force": {
+             "type": "number"
+            }
+           }
+          },
+          "legitimacy": {
+           "type": "number"
+          },
+          "army": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "economy": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "options": {
+       "type": "object",
+       "properties": {
+        "free_market": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "business": {
+             "type": "number"
+            },
+            "oligarchs": {
+             "type": "number"
+            },
+            "unions": {
+             "type": "number"
+            },
+            "labor_force": {
+             "type": "number"
+            }
+           }
+          },
+          "econ": {
+           "type": "object",
+           "properties": {
+            "tax_mn": {
+             "type": "number"
+            },
+            "self_build": {
+             "type": "boolean"
+            }
+           }
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "jobs": {
+             "type": "number"
+            },
+            "wellbeing": {
+             "type": "number"
+            },
+            "corruption": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        },
+        "mixed_f": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object"
+          },
+          "econ": {
+           "type": "object",
+           "properties": {
+            "tax_mn": {
+             "type": "number"
+            },
+            "self_build": {
+             "type": "boolean"
+            }
+           }
+          }
+         }
+        },
+        "state_capitalism": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "oligarchs": {
+             "type": "number"
+            },
+            "bureaucracy": {
+             "type": "number"
+            },
+            "business": {
+             "type": "number"
+            },
+            "liberals": {
+             "type": "number"
+            }
+           }
+          },
+          "econ": {
+           "type": "object",
+           "properties": {
+            "tax_mn": {
+             "type": "number"
+            },
+            "self_build": {
+             "type": "boolean"
+            }
+           }
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "corruption": {
+             "type": "number"
+            },
+            "jobs": {
+             "type": "number"
+            },
+            "infrastructure": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        },
+        "planned": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "party": {
+             "type": "number"
+            },
+            "labor_force": {
+             "type": "number"
+            },
+            "business": {
+             "type": "number"
+            },
+            "oligarchs": {
+             "type": "number"
+            }
+           }
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "econ": {
+           "type": "object",
+           "properties": {
+            "tax_mn": {
+             "type": "number"
+            },
+            "self_build": {
+             "type": "boolean"
+            }
+           }
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "jobs": {
+             "type": "number"
+            },
+            "wellbeing": {
+             "type": "number"
+            },
+            "corruption": {
+             "type": "number"
+            },
+            "extraction": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "faith": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "options": {
+       "type": "object",
+       "properties": {
+        "secular": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "liberals": {
+             "type": "number"
+            },
+            "clergy": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        },
+        "state_religion": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "clergy": {
+             "type": "number"
+            },
+            "conservatives": {
+             "type": "number"
+            },
+            "liberals": {
+             "type": "number"
+            },
+            "minorities": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        },
+        "atheism": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "clergy": {
+             "type": "number"
+            },
+            "party": {
+             "type": "number"
+            },
+            "conservatives": {
+             "type": "number"
+            }
+           }
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "trust": {
+             "type": "number"
+            },
+            "science": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        },
+        "theocratic": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "clergy": {
+             "type": "number"
+            },
+            "liberals": {
+             "type": "number"
+            },
+            "minorities": {
+             "type": "number"
+            },
+            "youth": {
+             "type": "number"
+            }
+           }
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "forms": {
+           "type": "array",
+           "items": {
+            "type": "string"
+           }
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "science": {
+             "type": "number"
+            },
+            "trust": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "regions": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "options": {
+       "type": "object",
+       "properties": {
+        "unitary": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "bureaucracy": {
+             "type": "number"
+            },
+            "regions": {
+             "type": "number"
+            },
+            "minorities": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        },
+        "federation": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "regions": {
+             "type": "number"
+            },
+            "minorities": {
+             "type": "number"
+            },
+            "bureaucracy": {
+             "type": "number"
+            }
+           }
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "infrastructure": {
+             "type": "number"
+            },
+            "trust": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        },
+        "confederation": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "regions": {
+             "type": "number"
+            },
+            "minorities": {
+             "type": "number"
+            },
+            "army": {
+             "type": "number"
+            },
+            "bureaucracy": {
+             "type": "number"
+            }
+           }
+          },
+          "legitimacy": {
+           "type": "number"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "corruption": {
+             "type": "number"
+            },
+            "infrastructure": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "order": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "options": {
+       "type": "object",
+       "properties": {
+        "legal": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "liberals": {
+             "type": "number"
+            },
+            "business": {
+             "type": "number"
+            },
+            "siloviki": {
+             "type": "number"
+            }
+           }
+          },
+          "freedom_elections": {
+           "type": "number"
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "suppression": {
+           "type": "number"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "corruption": {
+             "type": "number"
+            },
+            "trust": {
+             "type": "number"
+            },
+            "jobs": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        },
+        "reinforced": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "siloviki": {
+             "type": "number"
+            },
+            "conservatives": {
+             "type": "number"
+            },
+            "liberals": {
+             "type": "number"
+            }
+           }
+          },
+          "suppression": {
+           "type": "number"
+          }
+         }
+        },
+        "police_state": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "siloviki": {
+             "type": "number"
+            },
+            "liberals": {
+             "type": "number"
+            },
+            "youth": {
+             "type": "number"
+            },
+            "nation": {
+             "type": "number"
+            }
+           }
+          },
+          "freedom_elections": {
+           "type": "number"
+          },
+          "legitimacy": {
+           "type": "number"
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "suppression": {
+           "type": "number"
+          },
+          "fraud": {
+           "type": "boolean"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "trust": {
+             "type": "number"
+            },
+            "corruption": {
+             "type": "number"
+            },
+            "science": {
+             "type": "number"
+            },
+            "jobs": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "punishment": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "options": {
+       "type": "object",
+       "properties": {
+        "humane": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "liberals": {
+             "type": "number"
+            },
+            "siloviki": {
+             "type": "number"
+            },
+            "conservatives": {
+             "type": "number"
+            }
+           }
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "prisoners": {
+           "type": "number"
+          },
+          "riots": {
+           "type": "number"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "corruption": {
+             "type": "number"
+            },
+            "trust": {
+             "type": "number"
+            }
+           }
+          },
+          "relapse": {
+           "type": "number"
+          },
+          "term": {
+           "type": "number"
+          },
+          "price": {
+           "type": "number"
+          },
+          "mortality": {
+           "type": "number"
+          }
+         }
+        },
+        "strict": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "siloviki": {
+             "type": "number"
+            },
+            "conservatives": {
+             "type": "number"
+            }
+           }
+          },
+          "prisoners": {
+           "type": "number"
+          },
+          "riots": {
+           "type": "number"
+          },
+          "relapse": {
+           "type": "number"
+          },
+          "term": {
+           "type": "number"
+          },
+          "price": {
+           "type": "number"
+          },
+          "mortality": {
+           "type": "number"
+          }
+         }
+        },
+        "camps": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "siloviki": {
+             "type": "number"
+            },
+            "party": {
+             "type": "number"
+            },
+            "liberals": {
+             "type": "number"
+            },
+            "intelligentsia": {
+             "type": "number"
+            },
+            "nation": {
+             "type": "number"
+            }
+           }
+          },
+          "legitimacy": {
+           "type": "number"
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "prisoners": {
+           "type": "number"
+          },
+          "riots": {
+           "type": "number"
+          },
+          "labor": {
+           "type": "boolean"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "trust": {
+             "type": "number"
+            },
+            "science": {
+             "type": "number"
+            }
+           }
+          },
+          "relapse": {
+           "type": "number"
+          },
+          "term": {
+           "type": "number"
+          },
+          "price": {
+           "type": "number"
+          },
+          "mortality": {
+           "type": "number"
+          }
+         }
+        },
+        "link": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "siloviki": {
+             "type": "number"
+            },
+            "liberals": {
+             "type": "number"
+            }
+           }
+          },
+          "prisoners": {
+           "type": "number"
+          },
+          "riots": {
+           "type": "number"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "trust": {
+             "type": "number"
+            }
+           }
+          },
+          "relapse": {
+           "type": "number"
+          },
+          "term": {
+           "type": "number"
+          },
+          "price": {
+           "type": "number"
+          },
+          "mortality": {
+           "type": "number"
+          }
+         }
+        },
+        "scandinavian": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "liberals": {
+             "type": "number"
+            },
+            "siloviki": {
+             "type": "number"
+            },
+            "conservatives": {
+             "type": "number"
+            }
+           }
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "prisoners": {
+           "type": "number"
+          },
+          "riots": {
+           "type": "number"
+          },
+          "relapse": {
+           "type": "number"
+          },
+          "term": {
+           "type": "number"
+          },
+          "price": {
+           "type": "number"
+          },
+          "mortality": {
+           "type": "number"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "corruption": {
+             "type": "number"
+            },
+            "trust": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        },
+        "penal_labor": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "siloviki": {
+             "type": "number"
+            },
+            "liberals": {
+             "type": "number"
+            },
+            "intelligentsia": {
+             "type": "number"
+            },
+            "nation": {
+             "type": "number"
+            }
+           }
+          },
+          "legitimacy": {
+           "type": "number"
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "prisoners": {
+           "type": "number"
+          },
+          "riots": {
+           "type": "number"
+          },
+          "relapse": {
+           "type": "number"
+          },
+          "term": {
+           "type": "number"
+          },
+          "price": {
+           "type": "number"
+          },
+          "labor": {
+           "type": "boolean"
+          },
+          "mortality": {
+           "type": "number"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "trust": {
+             "type": "number"
+            },
+            "science": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "execution": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "options": {
+       "type": "object",
+       "properties": {
+        "cancelled": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "liberals": {
+             "type": "number"
+            },
+            "conservatives": {
+             "type": "number"
+            }
+           }
+          },
+          "opinion_world": {
+           "type": "number"
+          }
+         }
+        },
+        "moratorium": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object"
+          }
+         }
+        },
+        "applied": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "siloviki": {
+             "type": "number"
+            },
+            "conservatives": {
+             "type": "number"
+            },
+            "liberals": {
+             "type": "number"
+            }
+           }
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "trust": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "migration": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "options": {
+       "type": "object",
+       "properties": {
+        "open_f": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "business": {
+             "type": "number"
+            },
+            "liberals": {
+             "type": "number"
+            },
+            "diaspora": {
+             "type": "number"
+            },
+            "conservatives": {
+             "type": "number"
+            },
+            "labor_force": {
+             "type": "number"
+            }
+           }
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "growth_people": {
+             "type": "number"
+            },
+            "jobs": {
+             "type": "number"
+            },
+            "trust": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        },
+        "quotas": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "growth_people": {
+             "type": "number"
+            },
+            "jobs": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        },
+        "closed": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "conservatives": {
+             "type": "number"
+            },
+            "siloviki": {
+             "type": "number"
+            },
+            "business": {
+             "type": "number"
+            },
+            "liberals": {
+             "type": "number"
+            },
+            "diaspora": {
+             "type": "number"
+            }
+           }
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "growth_people": {
+             "type": "number"
+            },
+            "jobs": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "rights": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "options": {
+       "type": "object",
+       "properties": {
+        "wide": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "liberals": {
+             "type": "number"
+            },
+            "minorities": {
+             "type": "number"
+            },
+            "youth": {
+             "type": "number"
+            },
+            "conservatives": {
+             "type": "number"
+            },
+            "clergy": {
+             "type": "number"
+            }
+           }
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "freedom_elections": {
+           "type": "number"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "trust": {
+             "type": "number"
+            },
+            "science": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        },
+        "traditional": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "conservatives": {
+             "type": "number"
+            },
+            "clergy": {
+             "type": "number"
+            },
+            "liberals": {
+             "type": "number"
+            },
+            "minorities": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        },
+        "trimmed": {
+         "type": "object",
+         "properties": {
+          "en": {
+           "type": "string"
+          },
+          "forces": {
+           "type": "object",
+           "properties": {
+            "siloviki": {
+             "type": "number"
+            },
+            "liberals": {
+             "type": "number"
+            },
+            "minorities": {
+             "type": "number"
+            },
+            "youth": {
+             "type": "number"
+            }
+           }
+          },
+          "opinion_world": {
+           "type": "number"
+          },
+          "freedom_elections": {
+           "type": "number"
+          },
+          "legitimacy": {
+           "type": "number"
+          },
+          "country": {
+           "type": "object",
+           "properties": {
+            "trust": {
+             "type": "number"
+            },
+            "science": {
+             "type": "number"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "po_form": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "elections": {
+      "type": "string"
+     },
+     "word": {
+      "type": "string"
+     },
+     "army": {
+      "type": "string"
+     },
+     "economy": {
+      "type": "string"
+     },
+     "faith": {
+      "type": "string"
+     },
+     "regions": {
+      "type": "string"
+     },
+     "order": {
+      "type": "string"
+     },
+     "punishment": {
+      "type": "string"
+     },
+     "execution": {
+      "type": "string"
+     },
+     "migration": {
+      "type": "string"
+     },
+     "rights": {
+      "type": "string"
+     }
+    }
+   },
+   "x-examples": [
+    "absolute_monarchy",
+    "constitutional_monarchy",
+    "presidential_republic",
+    "semi_presidential",
+    "parliamentary_republic"
+   ]
+  }
+ }
+}

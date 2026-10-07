@@ -1,0 +1,108 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "pax-universe/bodies.schema.json",
+	"title": "Pax Universe celestial bodies (data/bodies.json or data/bodies.patch.json)",
+	"type": "object",
+	"properties": {
+		"тела": {
+			"description": "Bodies. In a .patch.json use {\"$append\": [...]}, {\"$edit\": [{\"$match\": {\"имя\": \"Марс\"}, ...}]}, {\"$remove\": [{\"имя\": \"Плутон\"}]}.",
+			"oneOf": [
+				{"type": "array", "items": {"$ref": "#/definitions/body"}},
+				{"$ref": "#/definitions/arrayPatch"}
+			]
+		},
+		"системы": {
+			"description": "Star systems. The Solar System is always index 0 and does not need to be listed.",
+			"oneOf": [
+				{"type": "array", "items": {"$ref": "#/definitions/system"}},
+				{"$ref": "#/definitions/arrayPatch"}
+			]
+		},
+		"пояса": {
+			"description": "Asteroid belts drawn as instanced rocks.",
+			"oneOf": [
+				{"type": "array", "items": {"$ref": "#/definitions/belt"}},
+				{"$ref": "#/definitions/arrayPatch"}
+			]
+		}
+	},
+	"definitions": {
+		"arrayPatch": {
+			"type": "object",
+			"properties": {
+				"$append": {"type": "array"},
+				"$prepend": {"type": "array"},
+				"$edit": {"type": "array", "items": {"type": "object", "required": ["$match"], "properties": {"$match": {"type": "object"}}}},
+				"$remove": {"type": "array"},
+				"$insert_after": {"type": "object", "required": ["$match", "items"], "properties": {"$match": {"type": "object"}, "items": {"type": "array"}}},
+				"$replace": {"type": "array"}
+			},
+			"additionalProperties": false
+		},
+		"params": {
+			"type": "object",
+			"description": "Climate scales 0..1 used by simulation and the planet shader.",
+			"properties": {
+				"temperature": {"type": "number", "minimum": 0, "maximum": 1, "description": "0 — deep frozen, ~0.35 — Earth-like, 1 — molten"},
+				"water": {"type": "number", "minimum": 0, "maximum": 1},
+				"biomass": {"type": "number", "minimum": 0, "maximum": 1},
+				"radiation": {"type": "number", "minimum": 0, "maximum": 1},
+				"atmosphere": {"type": "number", "minimum": 0, "maximum": 1},
+				"urban": {"type": "number", "minimum": 0, "maximum": 1, "description": "How built-up. >0.01 lets a colony appear."},
+				"magnetic": {"type": "number", "minimum": 0, "maximum": 1}
+			},
+			"additionalProperties": false
+		},
+		"body": {
+			"type": "object",
+			"required": ["имя"],
+			"properties": {
+				"имя": {"type": "string", "description": "Id and default name. Display name per language: key \"тело_<имя>\" in data/lang."},
+				"род": {"enum": ["камень", "газ", "звезда"], "description": "камень — rocky (colonies, provinces), газ — gas giant, звезда — star"},
+				"r": {"type": "number", "exclusiveMinimum": 0, "description": "Radius, km (Earth 6371)"},
+				"a": {"type": "number", "minimum": 0, "description": "Orbit radius, km, around the parent (\"спутник\") or the system centre. 0 — at the centre."},
+				"угол": {"type": "number", "description": "Starting angle on the orbit, degrees"},
+				"период": {"type": "number", "description": "Orbital period, days. Optional for bodies around a star (Kepler from the star mass); needed for moons of non-Solar bodies."},
+				"спутник": {"type": "string", "description": "Parent body id (moon of a planet, planet of a secondary star). Must be listed earlier. Inherits the parent's system."},
+				"система": {"type": "string", "description": "Star system name from \"системы\". Empty — the Solar System."},
+				"открыт": {"type": "boolean", "description": "Discovered at start (visible)."},
+				"дом": {"type": "boolean", "description": "The player's home planet. Only one body may have it."},
+				"описание": {"type": "string"},
+				"сид": {"type": "number", "description": "Seed of the procedural surface/bands."},
+				"параметры": {"$ref": "#/definitions/params"},
+				"карта": {"type": "string", "description": "Surface maps. Game name (\"mars\" → res://maps/mars_albedo.jpg) or a mod path without suffix: \"res://mods/<id>/planets/xeno\" → xeno_albedo.png, xeno_height.png (white = high), xeno_ocean.png (white = water). Equirectangular 2:1."},
+				"карта_море": {"type": "number", "minimum": 0, "maximum": 1, "description": "Sea level on the height map."},
+				"высота_радуга": {"type": "integer", "description": "1 — colour the height map as a rainbow (for airless bodies)."},
+				"цвет_породы": {"type": "array", "items": {"type": "number"}, "minItems": 3, "maxItems": 3, "description": "Rock colour for bodies without maps, [r, g, b] 0..1."},
+				"полос": {"type": "number", "description": "Gas giant: number of bands."},
+				"цвета": {"type": "array", "description": "Gas giant: three [r,g,b] colours."},
+				"кольца": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2, "description": "Rings [inner km, outer km] from the centre."},
+				"шейдер": {"type": "string", "description": "Replace the body's shader: res://mods/<id>/shaders/x.gdshader (spatial)."},
+				"шейдер_параметры": {"type": "object", "description": "Shader uniforms: number, [r,g,b] (vec3 or source_color), [x,y,z,w], or an image path. Stars: core, edge — colours.", "additionalProperties": true},
+				"меш": {"type": "string", "description": "A glb/gltf model instead of a sphere (asteroid, station, Dyson swarm…): res://mods/<id>/models/x.glb"}
+			},
+			"additionalProperties": true
+		},
+		"system": {
+			"type": "object",
+			"required": ["имя", "звезда", "положение_св_лет"],
+			"properties": {
+				"имя": {"type": "string"},
+				"звезда": {"type": "string", "description": "Id of the central star body (add it to \"тела\" with \"система\" and \"a\": 0)."},
+				"положение_св_лет": {"type": "array", "items": {"type": "number"}, "minItems": 3, "maxItems": 3, "description": "Position relative to the Sun, light years [x, y, z]."},
+				"масса": {"type": "number", "exclusiveMinimum": 0, "description": "Star mass in Suns (orbit speed)."},
+				"описание": {"type": "string"}
+			}
+		},
+		"belt": {
+			"type": "object",
+			"properties": {
+				"имя": {"type": "string"},
+				"система": {"type": "string"},
+				"внутр": {"type": "number"}, "внеш": {"type": "number"}, "толщина": {"type": "number"},
+				"штук": {"type": "integer"}, "размер": {"type": "number"},
+				"цвет": {"type": "array", "items": {"type": "number"}, "minItems": 3, "maxItems": 3}
+			}
+		}
+	}
+}

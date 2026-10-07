@@ -1,0 +1,36 @@
+{
+	"_readme": "galaxy.json is the galaxy map. «известные» — known stars placed by real galactic longitude l, latitude b and distance in light years; «местная_группа» — neighbouring galaxies. A neighbour with «ключ» and «звёзд» gets its own star map you can enter (click it in the Local Group). «вид»: спираль (spiral), эллиптическая (elliptical), неправильная (irregular clumps).",
+	"famous_ones": {
+		"$append": [
+			{
+				"name": {
+					"ru": "40 Эридана",
+					"en": "40 Eridani"
+				},
+				"class": "K",
+				"l": 200.75,
+				"b": -38.04,
+				"sv_years": 16.3
+			}
+		]
+	},
+	"local_group": {
+		"$append": [
+			{
+				"name": {
+					"ru": "Карликовая галактика в Стрельце",
+					"en": "Sagittarius Dwarf Galaxy"
+				},
+				"sv_years": [
+					15000,
+					-75000
+				],
+				"radius": 5000,
+				"kind": "elliptical",
+				"key": "стрелец_кг",
+				"stars_of": 120,
+				"seed": 777
+			}
+		]
+	}
+}

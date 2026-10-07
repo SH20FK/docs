@@ -1,0 +1,59 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/politics/forces.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/politics/forces.json → data/politics/forces.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "forces": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "en": {
+      "type": "string"
+     },
+     "values": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "hates": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "voice": {
+      "type": "string"
+     },
+     "street": {
+      "type": "number"
+     },
+     "bayonet": {
+      "type": "number"
+     },
+     "party": {
+      "type": "string"
+     },
+     "targets": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   },
+   "x-examples": [
+    "army",
+    "siloviki",
+    "bureaucracy",
+    "oligarchs",
+    "business"
+   ]
+  }
+ }
+}

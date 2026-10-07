@@ -1,0 +1,11 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/politics/countries.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/politics/countries.json → data/politics/countries.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  }
+ }
+}

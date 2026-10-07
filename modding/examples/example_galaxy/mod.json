@@ -1,0 +1,24 @@
+{
+	"id": "example_galaxy",
+	"name": {
+		"en": "Example: your own star, secret and galaxy",
+		"ru": "Пример: своя звезда, тайна и галактика"
+	},
+	"version": "1.0.0",
+	"api": 1,
+	"game_version": ">=0.23.0",
+	"authors": [
+		"Gugergaming"
+	],
+	"description": {
+		"en": "Adds 40 Eridani with its real companions to the galaxy map, hides the secret planet Vulcan in it, puts the Sagittarius Dwarf galaxy into the Local Group and gives every star there a lonely rogue planet. Shows galaxy.patch.json, galaxy_systems.patch.json, galaxy_secrets.patch.json and the system_generated hook — read main.gd as a tutorial.",
+		"ru": "Добавляет на карту галактики 40 Эридана с настоящими спутниками, прячет в неё тайную планету Вулкан, ставит в Местную группу Карликовую галактику в Стрельце и дарит каждой её звезде одинокую планету-бродягу. Показывает galaxy.patch.json, galaxy_systems.patch.json, galaxy_secrets.patch.json и хук system_generated — читайте main.gd как учебник."
+	},
+	"tags": [
+		"example",
+		"galaxy",
+		"star system",
+		"code"
+	],
+	"entry": "main.gd"
+}

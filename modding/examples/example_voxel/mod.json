@@ -1,0 +1,27 @@
+{
+	"id": "example_voxel",
+	"name": {
+		"en": "Example: voxel planet",
+		"ru": "Пример: воксельная планета"
+	},
+	"version": "1.0.0",
+	"api": 1,
+	"game_version": ">=0.22.6",
+	"authors": [
+		"Gugergaming"
+	],
+	"description": {
+		"en": "A voxel copy of your home planet in a window: real relief from the game's maps, provinces painted by their owners, craters by a click, a station built from a JSON file. Shows everything Pax.voxel can do — read main.gd as a tutorial.",
+		"ru": "Воксельная копия родной планеты в окне: рельеф по картам игры, провинции в цветах владельцев, кратеры по щелчку, станция из JSON-файла. Показывает всё, что умеет Pax.voxel, — читайте main.gd как учебник."
+	},
+	"tags": [
+		"example",
+		"voxel",
+		"code"
+	],
+	"components": [
+		"voxel"
+	],
+	"client_only": true,
+	"entry": "main.gd"
+}

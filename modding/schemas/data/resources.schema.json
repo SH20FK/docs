@@ -1,0 +1,75 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/resources.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/resources.json → data/resources.patch.json",
+ "type": "object",
+ "properties": {
+  "rulebook": {
+   "type": "string"
+  },
+  "resources": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "formulas": {
+   "type": "object",
+   "properties": {
+    "mining_for_week": {
+     "type": "string"
+    },
+    "coating": {
+     "type": "string"
+    },
+    "chance_project": {
+     "type": "string"
+    },
+    "chance_aid_colonies": {
+     "type": "string"
+    }
+   }
+  },
+  "bodies": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "wealth": {
+      "type": "object",
+      "properties": {
+       "energy": {
+        "type": "number"
+       },
+       "materials": {
+        "type": "number"
+       },
+       "water": {
+        "type": "number"
+       },
+       "rare": {
+        "type": "number"
+       },
+       "food": {
+        "type": "number"
+       },
+       "fuel": {
+        "type": "number"
+       }
+      }
+     },
+     "colony": {
+      "type": "string"
+     }
+    }
+   },
+   "x-examples": [
+    "Солнце",
+    "Меркурий",
+    "Венера",
+    "Земля",
+    "Луна"
+   ]
+  }
+ }
+}

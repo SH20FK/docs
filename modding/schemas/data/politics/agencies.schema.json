@@ -1,0 +1,351 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/politics/agencies.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/politics/agencies.json → data/politics/agencies.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "Россия": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "СССР": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "США": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "Великобритания": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "Франция": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "Германия": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "Италия": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "Япония": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "Китай": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "Украина": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "Беларусь": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "Казахстан": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "Иран": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "Израиль": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "Турция": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "Индия": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "Северная Корея": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "Саудовская Аравия": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "Польша": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  },
+  "Бразилия": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "years": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     }
+    }
+   }
+  }
+ }
+}

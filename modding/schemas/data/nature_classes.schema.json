@@ -1,0 +1,147 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/nature_classes.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/nature_classes.json → data/nature_classes.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "deeds": {
+   "type": "object",
+   "properties": {
+    "become": {
+     "type": "string"
+    },
+    "deepen": {
+     "type": "string"
+    },
+    "undo": {
+     "type": "string"
+    }
+   }
+  },
+  "classes": {
+   "type": "object",
+   "properties": {
+    "ordinary": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "labor",
+      "science",
+      "corruption_x"
+     ]
+    },
+    "unified_mind": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "labor",
+      "science",
+      "corruption_x"
+     ]
+    },
+    "machine_bodies": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "labor",
+      "science",
+      "corruption_x"
+     ]
+    },
+    "digitized": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "labor",
+      "science",
+      "corruption_x"
+     ]
+    },
+    "hive": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "labor",
+      "science",
+      "corruption_x"
+     ]
+    },
+    "immortals": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "labor",
+      "science",
+      "corruption_x"
+     ]
+    },
+    "faith_above_self": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "labor",
+      "science",
+      "corruption_x"
+     ]
+    },
+    "returnees": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "labor",
+      "science",
+      "corruption_x"
+     ]
+    },
+    "beastly": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "x-examples": [
+      "en",
+      "what_it_is",
+      "labor",
+      "science",
+      "corruption_x"
+     ]
+    }
+   }
+  }
+ }
+}

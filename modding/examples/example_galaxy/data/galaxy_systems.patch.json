@@ -1,0 +1,41 @@
+{
+	"_readme": "Real planets of known stars, keyed by the star's English name. r_земли — radius in Earth radii, a_ае — orbit in AU, K — temperature in kelvin; «звёзды» — companion stars; «у» — which companion a planet circles. Without «только_известные»: false nothing else is generated.",
+	"systems": {
+		"40 Eridani": {
+			"r_suns": 0.81,
+			"mass": 0.78,
+			"stars": [
+				{
+					"name": {
+						"ru": "40 Эридана B",
+						"en": "40 Eridani B"
+					},
+					"class": "white_dwarf",
+					"r_suns": 0.014,
+					"a_au": 400.0
+				},
+				{
+					"name": {
+						"ru": "40 Эридана C",
+						"en": "40 Eridani C"
+					},
+					"class": "M",
+					"r_suns": 0.31,
+					"a_au": 420.0
+				}
+			],
+			"planets": [
+				{
+					"name": {
+						"ru": "40 Эридана b",
+						"en": "40 Eridani b"
+					},
+					"r_lands": 2.0,
+					"a_au": 0.22,
+					"K": 450,
+					"atm": 0.4
+				}
+			]
+		}
+	}
+}

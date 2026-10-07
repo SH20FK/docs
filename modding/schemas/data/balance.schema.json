@@ -1,0 +1,16 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/balance.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/balance.json → data/balance.patch.json",
+ "type": "object",
+ "additionalProperties": {
+  "type": "string"
+ },
+ "x-examples": [
+  "_description",
+  "_fields",
+  "economy.economy.deposits_to_units",
+  "economy.economy.working_share",
+  "economy.economy.weeks_reserve"
+ ]
+}

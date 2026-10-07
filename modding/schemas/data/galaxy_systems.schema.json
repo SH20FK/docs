@@ -1,0 +1,100 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/galaxy_systems.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/galaxy_systems.json → data/galaxy_systems.patch.json",
+ "type": "object",
+ "properties": {
+  "_description": {
+   "type": "string"
+  },
+  "systems": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "r_suns": {
+      "type": "number"
+     },
+     "mass": {
+      "type": "number"
+     },
+     "stars": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "name": {
+         "type": "object",
+         "properties": {
+          "ru": {
+           "type": "string"
+          },
+          "en": {
+           "type": "string"
+          }
+         }
+        },
+        "class": {
+         "type": "string"
+        },
+        "r_suns": {
+         "type": "number"
+        },
+        "a_au": {
+         "type": "number"
+        }
+       }
+      }
+     },
+     "planets": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "name": {
+         "type": "object",
+         "properties": {
+          "ru": {
+           "type": "string"
+          },
+          "en": {
+           "type": "string"
+          }
+         }
+        },
+        "у": {
+         "type": "string"
+        },
+        "r_lands": {
+         "type": "number"
+        },
+        "a_au": {
+         "type": "number"
+        },
+        "K": {
+         "type": "number"
+        },
+        "water": {
+         "type": "number"
+        },
+        "atm": {
+         "type": "number"
+        },
+        "radiation": {
+         "type": "number"
+        }
+       }
+      }
+     }
+    }
+   },
+   "x-examples": [
+    "Alpha Centauri",
+    "Barnard's Star",
+    "Lalande 21185",
+    "Sirius",
+    "Epsilon Eridani"
+   ]
+  }
+ }
+}

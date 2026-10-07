@@ -1,0 +1,35 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/market.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/market.json → data/market.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "goods": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "en": {
+      "type": "string"
+     },
+     "price": {
+      "type": "number"
+     },
+     "depth": {
+      "type": "number"
+     }
+    }
+   },
+   "x-examples": [
+    "fuel",
+    "food",
+    "materials",
+    "rare",
+    "medicine"
+   ]
+  }
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/epochs.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/epochs.json → data/epochs.patch.json",
+ "type": "object",
+ "properties": {
+  "_manner_this_works": {
+   "type": "string"
+  },
+  "epochs": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "year": {
+      "type": "number"
+     },
+     "kind": {
+      "type": "string"
+     },
+     "name": {
+      "type": "string"
+     },
+     "what": {
+      "type": "string"
+     },
+     "climate": {
+      "type": "object",
+      "properties": {
+       "temperature": {
+        "type": "number"
+       },
+       "water": {
+        "type": "number"
+       },
+       "biomass": {
+        "type": "number"
+       },
+       "radiation": {
+        "type": "number"
+       },
+       "atmosphere": {
+        "type": "number"
+       },
+       "urban": {
+        "type": "number"
+       },
+       "magnetic": {
+        "type": "number"
+       }
+      }
+     },
+     "map_lands": {
+      "type": "string"
+     },
+     "electricity": {
+      "type": "boolean"
+     }
+    }
+   }
+  }
+ }
+}

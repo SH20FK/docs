@@ -1,0 +1,144 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/roles.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/roles.json → data/roles.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "roles": {
+   "type": "object",
+   "properties": {
+    "engineers": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "scales": {
+       "type": "object",
+       "properties": {
+        "infrastructure": {
+         "type": "number"
+        },
+        "comms": {
+         "type": "number"
+        }
+       }
+      },
+      "synonyms": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "builders": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "scales": {
+       "type": "object",
+       "properties": {
+        "housing": {
+         "type": "number"
+        }
+       }
+      },
+      "synonyms": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "scientists": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "scales": {
+       "type": "object",
+       "properties": {
+        "science": {
+         "type": "number"
+        }
+       }
+      },
+      "synonyms": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "doctors": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "health": {
+       "type": "number"
+      },
+      "synonyms": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "fighters": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "garrison": {
+       "type": "number"
+      },
+      "synonyms": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "laborers": {
+     "type": "object",
+     "properties": {
+      "en": {
+       "type": "string"
+      },
+      "scales": {
+       "type": "object",
+       "properties": {
+        "extraction": {
+         "type": "number"
+        },
+        "jobs": {
+         "type": "number"
+        }
+       }
+      },
+      "synonyms": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

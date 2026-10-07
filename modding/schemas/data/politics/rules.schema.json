@@ -1,0 +1,194 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/politics/rules.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/politics/rules.json → data/politics/rules.patch.json",
+ "type": "object",
+ "properties": {
+  "_description": {
+   "type": "string"
+  },
+  "_fields": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "label": {
+      "type": "object",
+      "properties": {
+       "ru": {
+        "type": "string"
+       },
+       "en": {
+        "type": "string"
+       }
+      }
+     },
+     "hint": {
+      "type": "object",
+      "properties": {
+       "ru": {
+        "type": "string"
+       },
+       "en": {
+        "type": "string"
+       }
+      }
+     },
+     "level": {
+      "type": "string"
+     }
+    }
+   },
+   "x-examples": [
+    "law_sections",
+    "law_country_scales",
+    "law_country_other",
+    "law_planet_sliders",
+    "law_limit"
+   ]
+  },
+  "law_sections": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "law_country_scales": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "law_country_other": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "law_planet_sliders": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "law_limit": {
+   "type": "object",
+   "properties": {
+    "corruption": {
+     "type": "number"
+    },
+    "trust": {
+     "type": "number"
+    },
+    "wellbeing": {
+     "type": "number"
+    },
+    "army": {
+     "type": "number"
+    },
+    "_scale": {
+     "type": "number"
+    },
+    "_planet": {
+     "type": "number"
+    }
+   }
+  },
+  "law_total": {
+   "type": "object",
+   "properties": {
+    "corruption": {
+     "type": "number"
+    },
+    "trust": {
+     "type": "number"
+    },
+    "wellbeing": {
+     "type": "number"
+    },
+    "army": {
+     "type": "number"
+    },
+    "_scale": {
+     "type": "number"
+    },
+    "_planet": {
+     "type": "number"
+    }
+   }
+  },
+  "prison_systems": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "election_modes": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "election_span": {
+   "type": "object",
+   "properties": {
+    "honestly": {
+     "type": "number"
+    },
+    "tweak": {
+     "type": "number"
+    },
+    "draw": {
+     "type": "number"
+    }
+   }
+  },
+  "election_resource_needed": {
+   "type": "object",
+   "properties": {
+    "custom": {
+     "type": "number"
+    },
+    "honestly": {
+     "type": "number"
+    },
+    "tweak": {
+     "type": "number"
+    },
+    "draw": {
+     "type": "number"
+    }
+   }
+  },
+  "chamber_kinds": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "chamber_votes": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "chamber_appearances": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "regime_after_coup": {
+   "type": "string"
+  },
+  "regime_after_revolution": {
+   "type": "string"
+  },
+  "regime_after_troubles": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  }
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/veils.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/veils.json → data/veils.patch.json",
+ "type": "object",
+ "properties": {
+  "_": {
+   "type": "string"
+  },
+  "order": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "po_default": {
+   "type": "string"
+  },
+  "veils": {
+   "type": "object",
+   "properties": {
+    "sober": {
+     "type": "object",
+     "properties": {
+      "key_title": {
+       "type": "string"
+      },
+      "key_description": {
+       "type": "string"
+      },
+      "rule": {
+       "type": "string"
+      },
+      "briefly": {
+       "type": "string"
+      },
+      "environment": {
+       "type": "string"
+      },
+      "price_impossible": {
+       "type": "number"
+      }
+     }
+    },
+    "mystery": {
+     "type": "object",
+     "properties": {
+      "key_title": {
+       "type": "string"
+      },
+      "key_description": {
+       "type": "string"
+      },
+      "rule": {
+       "type": "string"
+      },
+      "briefly": {
+       "type": "string"
+      },
+      "environment": {
+       "type": "string"
+      }
+     }
+    },
+    "mythical": {
+     "type": "object",
+     "properties": {
+      "key_title": {
+       "type": "string"
+      },
+      "key_description": {
+       "type": "string"
+      },
+      "rule": {
+       "type": "string"
+      },
+      "briefly": {
+       "type": "string"
+      },
+      "environment": {
+       "type": "string"
+      }
+     }
+    },
+    "everything_permitted": {
+     "type": "object",
+     "properties": {
+      "key_title": {
+       "type": "string"
+      },
+      "key_description": {
+       "type": "string"
+      },
+      "rule": {
+       "type": "string"
+      },
+      "briefly": {
+       "type": "string"
+      },
+      "environment": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  }
+ }
+}

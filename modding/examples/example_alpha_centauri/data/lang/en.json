@@ -1,0 +1,18 @@
+{
+	"тело_Альфа Центавра A": "Alpha Centauri A",
+	"тело_Альфа Центавра B": "Alpha Centauri B",
+	"тело_Проксима Центавра": "Proxima Centauri",
+	"тело_Проксима b": "Proxima b",
+	"тело_Проксима d": "Proxima d",
+	"acen_button": "🚀 Arks",
+	"acen_title": "Interstellar arks",
+	"acen_from": "From (colony):",
+	"acen_to": "To:",
+	"acen_speed": "Speed: %s c",
+	"acen_people": "People aboard:",
+	"acen_launch": "Launch the ark",
+	"acen_eta": "Travel: %s years, %s light years",
+	"acen_flying": "In flight: %d",
+	"acen_no_colony": "No colonies to launch from",
+	"acen_arrived": "The ark reached %s. A new home in the %s system."
+}

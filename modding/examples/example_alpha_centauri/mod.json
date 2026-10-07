@@ -1,0 +1,25 @@
+{
+	"id": "example_alpha_centauri",
+	"name": {
+		"en": "Example: Alpha Centauri and interstellar arks",
+		"ru": "Пример: Альфа Центавра и межзвёздные ковчеги"
+	},
+	"version": "1.0.0",
+	"api": 1,
+	"game_version": ">=0.9.0",
+	"authors": [
+		"Gugergaming"
+	],
+	"description": {
+		"en": "A second star system 4.37 light years away: Alpha Centauri A and B, Proxima Centauri and the eyeball planet Proxima b with its own textures. Adds an Arks window to launch interstellar arks from any colony. Shows: \"системы\" in bodies.patch.json, star colours through shader parameters, PaxGame.launch_ship, _ship_arrived.",
+		"ru": "Вторая звёздная система в 4,37 светового года: Альфа Центавра A и B, Проксима Центавра и планета-«глаз» Проксима b со своими текстурами. Окно «Ковчеги» запускает межзвёздные ковчеги из любой колонии."
+	},
+	"tags": [
+		"example",
+		"star system",
+		"arks",
+		"ui",
+		"code"
+	],
+	"entry": "main.gd"
+}

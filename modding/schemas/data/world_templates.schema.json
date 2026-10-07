@@ -1,0 +1,72 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/world_templates.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/world_templates.json → data/world_templates.patch.json",
+ "type": "object",
+ "properties": {
+  "_description": {
+   "type": "string"
+  },
+  "templates": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "icon": {
+      "type": "string"
+     },
+     "title": {
+      "type": "object",
+      "properties": {
+       "ru": {
+        "type": "string"
+       },
+       "en": {
+        "type": "string"
+       }
+      }
+     },
+     "text": {
+      "type": "object",
+      "properties": {
+       "ru": {
+        "type": "string"
+       },
+       "en": {
+        "type": "string"
+       }
+      }
+     },
+     "start": {
+      "type": "object",
+      "properties": {
+       "year": {
+        "type": "number"
+       },
+       "month": {
+        "type": "number"
+       },
+       "day": {
+        "type": "number"
+       }
+      }
+     },
+     "idea": {
+      "type": "object",
+      "properties": {
+       "ru": {
+        "type": "string"
+       },
+       "en": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

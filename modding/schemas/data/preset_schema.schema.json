@@ -1,0 +1,340 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/preset_schema.json",
+ "description": "Выведено из данных игры утилитой tools/modding/страж.py. Патч: data/preset_schema.json → data/preset_schema.patch.json",
+ "type": "object",
+ "properties": {
+  "_description": {
+   "type": "string"
+  },
+  "_fields": {
+   "type": "object",
+   "properties": {
+    "type": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "label": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "assistant": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "translate": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "text": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "markdown": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "people_block": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "slice_copy": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "world_only": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "country": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "type": {
+      "type": "string"
+     },
+     "label": {
+      "type": "object",
+      "properties": {
+       "ru": {
+        "type": "string"
+       },
+       "en": {
+        "type": "string"
+       }
+      }
+     },
+     "assistant": {
+      "type": "string"
+     },
+     "translate": {
+      "type": "number"
+     }
+    }
+   },
+   "x-examples": [
+    "name",
+    "type",
+    "body",
+    "race",
+    "people"
+   ]
+  },
+  "leader": {
+   "type": "object",
+   "properties": {
+    "name": {
+     "type": "object",
+     "properties": {
+      "type": {
+       "type": "string"
+      },
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "assistant": {
+       "type": "string"
+      },
+      "translate": {
+       "type": "number"
+      }
+     }
+    },
+    "origin": {
+     "type": "object",
+     "properties": {
+      "type": {
+       "type": "string"
+      },
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "assistant": {
+       "type": "string"
+      },
+      "translate": {
+       "type": "number"
+      }
+     }
+    },
+    "character": {
+     "type": "object",
+     "properties": {
+      "type": {
+       "type": "string"
+      },
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "assistant": {
+       "type": "string"
+      },
+      "translate": {
+       "type": "number"
+      }
+     }
+    },
+    "first_word": {
+     "type": "object",
+     "properties": {
+      "type": {
+       "type": "string"
+      },
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "assistant": {
+       "type": "string"
+      },
+      "translate": {
+       "type": "number"
+      }
+     }
+    },
+    "born": {
+     "type": "object",
+     "properties": {
+      "type": {
+       "type": "string"
+      },
+      "label": {
+       "type": "object",
+       "properties": {
+        "ru": {
+         "type": "string"
+        },
+        "en": {
+         "type": "string"
+        }
+       }
+      },
+      "assistant": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  },
+  "world": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "slice_copy": {
+      "type": "number"
+     }
+    }
+   },
+   "x-examples": [
+    "factions",
+    "terrains",
+    "provinces_zones",
+    "provinces_zones_2",
+    "at_war_with"
+   ]
+  }
+ }
+}

@@ -1,0 +1,138 @@
+{
+	"_readme": "Adds a star system. \"системы\" lists systems; bodies choose one with \"система\". Moons (\"спутник\") inherit the system of their parent. \"a\" — km from the parent (or from the system centre), \"r\" — radius km, \"период\" — days (optional for top-level bodies: Kepler from the star mass).",
+	"systems": {
+		"$append": [
+			{
+				"name": "Альфа Центавра",
+				"star": "Альфа Центавра A",
+				"situation_sv_years": [
+					-1.64,
+					-1.37,
+					-3.84
+				],
+				"mass": 1.1,
+				"description": "Ближайшая к Солнцу звёздная система: две жёлтые звезды и красный карлик Проксима."
+			}
+		]
+	},
+	"bodies": {
+		"$append": [
+			{
+				"name": "Альфа Центавра A",
+				"genus": "star",
+				"system": "Альфа Центавра",
+				"r": 851000,
+				"a": 0,
+				"open": true,
+				"description": "Звезда чуть крупнее Солнца.",
+				"shader_parameters": {
+					"core": [
+						1.0,
+						0.95,
+						0.8
+					],
+					"edge": [
+						1.0,
+						0.62,
+						0.25
+					]
+				}
+			},
+			{
+				"name": "Альфа Центавра B",
+				"genus": "star",
+				"satellite": "Альфа Центавра A",
+				"r": 602000,
+				"a": 3500000000,
+				"period": 29180,
+				"angle": 120,
+				"open": true,
+				"description": "Оранжевая сестра A: обходит её за 80 лет.",
+				"shader_parameters": {
+					"core": [
+						1.0,
+						0.82,
+						0.55
+					],
+					"edge": [
+						1.0,
+						0.45,
+						0.12
+					]
+				}
+			},
+			{
+				"name": "Проксима Центавра",
+				"genus": "star",
+				"satellite": "Альфа Центавра A",
+				"r": 107000,
+				"a": 1940000000000,
+				"period": 199800000,
+				"angle": 250,
+				"open": true,
+				"description": "Красный карлик, самая близкая к нам звезда.",
+				"shader_parameters": {
+					"core": [
+						1.0,
+						0.55,
+						0.35
+					],
+					"edge": [
+						0.85,
+						0.18,
+						0.06
+					]
+				}
+			},
+			{
+				"name": "Проксима b",
+				"genus": "rock",
+				"satellite": "Проксима Центавра",
+				"r": 7160,
+				"a": 7260000,
+				"period": 11.19,
+				"angle": 10,
+				"sid": 4.2,
+				"open": true,
+				"description": "Приливно захваченный мир: под звездой вечный океан, на ночной стороне лёд.",
+				"parameters": {
+					"temperature": 0.28,
+					"water": 0.45,
+					"biomass": 0.0,
+					"radiation": 0.55,
+					"atmosphere": 0.35,
+					"urban": 0.0,
+					"magnetic": 0.15
+				},
+				"map": "res://mods/example_alpha_centauri/planets/proxima_b",
+				"map_sea": 0.5
+			},
+			{
+				"name": "Проксима d",
+				"genus": "rock",
+				"satellite": "Проксима Центавра",
+				"r": 3200,
+				"a": 4350000,
+				"period": 5.12,
+				"angle": 200,
+				"sid": 9.1,
+				"open": true,
+				"description": "Горячий камешек у самой звезды.",
+				"parameters": {
+					"temperature": 0.7,
+					"water": 0.0,
+					"biomass": 0.0,
+					"radiation": 0.8,
+					"atmosphere": 0.02,
+					"urban": 0.0,
+					"magnetic": 0.05
+				},
+				"color_rock": [
+					0.45,
+					0.3,
+					0.24
+				]
+			}
+		]
+	}
+}
